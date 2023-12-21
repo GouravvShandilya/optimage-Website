@@ -3,6 +3,8 @@ import App from './App.jsx'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Aboutus from './pages/Aboutus.jsx'
+import Homepage from './pages/Homepage.jsx'
+import Productpage from './pages/Productpage.jsx'
 
 
 
@@ -14,12 +16,17 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
+        element:<Homepage/> ,
+
+      },
+      {
+        path: "/aboutus",
         element:<Aboutus/> ,
 
       },
       {
-        path: "/login",
-        element: <Aboutus/>,
+        path: "/productpage",
+        element:<Productpage/> ,
 
       }
     ]
