@@ -13,8 +13,8 @@ function Navbar() {
             </div>
             <div className=" w-[55%] h-[100%]  ">
                 <div className="w-[45%] h-[100%] flex items-center justify-around ">
-                    <div><Link>About us</Link></div>
-                    <div><Link>Products</Link></div>
+                    <div><Link to="/aboutus">About us</Link></div>
+                    <div><Link to="/productpage">Products</Link></div>
                     <div><Link>Contact</Link></div>
                 </div>
             </div>
