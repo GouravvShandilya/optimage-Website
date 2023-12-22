@@ -9,7 +9,7 @@ function Navbar() {
     return (
         <div className='w-full h-[10vh]  bg-[#f9f8f8] flex'>
             <div className="w-[15%] h-[100%]  flex items-center justify-center">
-                <img src={osplLogo} alt="" />
+               <Link to='/'>  <img src={osplLogo} alt="" /></Link>
             </div>
             <div className=" w-[55%] h-[100%]  ">
                 <div className="w-[45%] h-[100%] flex items-center justify-around ">
