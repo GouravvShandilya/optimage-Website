@@ -197,13 +197,13 @@ function Homepage() {
       </div>
 
 
-      <div className="md:w-full md:h-[100vh] w-full h-[30vh] bg-pink-600 ">
+      <div className="md:w-full md:h-[100vh] w-full h-[35vh] ">
         <div className="w-full h-[20%]  flex items-center justify-center">
           <h1 className="md:text-[2.5vw] text-[3.5vw] font-[600]">Our Values</h1>
         </div>
         <div className="w-full h-[80%]  flex items-center justify-center">
 
-          <div className="w-[70%] h-[100%]  flex justify-between ">
+          <div className="md:w-[70%] md:h-[100%]  w-[80%] h-[100%] flex justify-between ">
             <div className="w-[45%] h-[90%]  rounded-lg  flex flex-col items-center justify-center bg-[#EFEFEF]">
               <div className="w-[90%] h-[15%]  flex items-end md:text-[4vw] text-[5vw]">
                 <GiArcheryTarget />
@@ -221,14 +221,14 @@ function Homepage() {
 
 
             <div className="w-[45%] h-[90%]  rounded-lg  flex flex-col items-center justify-center bg-[#EFEFEF]">
-              <div className="w-[90%] h-[15%]  flex items-end text-[4vw] ">
+              <div className="w-[90%] h-[15%]  flex items-end md:text-[4vw] text-[5vw]">
                 <TbDeviceVisionPro />
               </div>
               <div className="w-[90%] h-[15%] flex items-center">
-                <h1 className="text-[2vw] font-[500]">Our Vision</h1>
+                <h1 className="md:text-[2vw]  text-[3vw] font-[500]">Our Vision</h1>
               </div>
               <div className="w-[90%] h-[70%] ">
-                <p className=" text-left text-[1.2vw] leading-15 tracking-widest">
+                <p className="text-left md:text-[1.2vw] text-[1.6vw] md:leading-15 md:tracking-widest tracking-wider">
                   At OptiManage, we envision a world where businesses, hotels, medical facilities and educational institutions operate efficiently, make data-driven decisions, and leverage the power of AI and ML to stay ahead in a rapidly evolving digital landscape.
                 </p>
               </div>
