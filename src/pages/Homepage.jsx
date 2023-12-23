@@ -66,7 +66,7 @@ function Homepage() {
         </div>
 
         <div className="w-full h-[70%]  flex items-center justify-center">
-          <div className="w-[95%] h-[90%]  grid grid-rows-2 grid-cols-3 items-center justify-items-center  ">
+          <div className="w-[95%] h-[90%]  grid grid-rows-2 grid-cols-3 items-center justify-items-center   md:flex-wrap">
 
 
             <div className="w-[80%] h-[70%] bg-white flex items-center justify-center">
@@ -250,16 +250,16 @@ function Homepage() {
         <div className="w-[50%] h-[70%]  flex flex-col ">
           <div className="w-full h-[33%]  flex items-center justify-center ">
             <div className="w-[35%] h-[40%] bg-[#DE6164] rounded-lg">
-            <button className="w-full h-[100%] rounded-lg text-white text-[1.3vw] font-[600]">More about us</button>
+              <button className="w-full h-[100%] rounded-lg text-white text-[1.3vw] font-[600]">More about us</button>
             </div>
           </div>
           <div className="w-full h-[33%]   flex items-center justify-center">
-           <h5 className="text-[1.8vw] tracking-wide">Let’s get your work done in the best way</h5>
-           </div>
-          <div className="w-full h-[33%]  flex items-center justify-center ">
-          <div className="w-[35%] h-[40%] bg-[#3E0069] rounded-lg">
-          <button className="w-full h-[100%] rounded-lg text-white text-[1.3vw] font-[600]">Contact us!</button>
+            <h5 className="text-[1.8vw] tracking-wide">Let’s get your work done in the best way</h5>
           </div>
+          <div className="w-full h-[33%]  flex items-center justify-center ">
+            <div className="w-[35%] h-[40%] bg-[#3E0069] rounded-lg">
+              <button className="w-full h-[100%] rounded-lg text-white text-[1.3vw] font-[600]">Contact us!</button>
+            </div>
           </div>
         </div>
       </div>
