@@ -7,49 +7,49 @@ import { TbDeviceVisionPro } from "react-icons/tb";
 function Homepage() {
   return (
     <div className="w-full min-h-[100vh] ">
-      <div className="w-full h-[100vh]  flex items-start justify-center">
-        <div className="w-[95%] h-[85%]  flex">
+      <div className="md:w-full md:h-[100vh]  md:flex md:items-start md:justify-center w-full h-[40vh]  flex items-center justify-center ">
+        <div className="w-[95%] h-[85%]  flex ">
           <div className="w-[50%] h-[100%]  flex flex-col">
             <div className="w-full h-[50%]  flex items-end justify-start">
-              <h1 className="text-[3vw] font-[400] text-[#06384A] leading-[7vh] tracking-wide">
+              <h1 className="md:text-[3vw] md:font-[400] text-[#06384A] md:leading-[7vh] md:tracking-wide text-[3.5vw] font-[400] leading-[3vh] tracking-wide">
                 Empowering Efficiency,<br />
                 Elevating Management <br />
                 Your Solution, Our Expertise!
               </h1>
             </div>
-            <div className="w-full h-[50%] ">
-              <div className="w-full h-[50%]  flex items-center">
-                <div className="w-[45%] h-[50%] bg-[#045E2E] rounded-[1.5vw]">
+            <div className="w-full h-[50%]  ">
+              <div className="w-full h-[50%]  flex items-center ">
+                <div className="md:w-[45%] md:h-[50%] bg-[#045E2E] rounded-[1.5vw] w-[55%] h-[40%] ">
                   <button className="w-full h-[100%] rounded-[1.5vw] text-[1.8vw] font-[600] text-white">Book a free demo</button>
                 </div>
               </div>
             </div>
 
           </div>
-          <div className={`w-[50%] h-[100%]  bg-no-repeat bg-center  `} style={{ backgroundImage: `url(${youngImg})` }}>
+          <div className={`w-[50%] h-[100%]  md:bg-no-repeat md:bg-center md:bg-[length:500px_700px]  bg-no-repeat bg-center bg-[length:500px_200px] `} style={{ backgroundImage: `url(${youngImg})` }}>
 
-            <div className="w-full h-[30%]  flex items-end">
+            <div className="w-full h-[30%]  flex items-end  ">
               <div className="w-full h-[50%]  flex items-end">
-                <div className="w-[32%] h-[60%] bg-[#025E7F] rounded-lg flex items-center justify-center">
-                  <h5 className="text-white"> High performance</h5>
+                <div className="md:w-[32%] md:h-[60%] bg-[#025E7F] rounded-lg flex items-center justify-center w-[35%] h-[55%] ">
+                  <h5 className="text-white md:text-[1.2vw] text-[1.5vw]"> High performance</h5>
                 </div>
               </div>
             </div>
 
 
             <div className="w-full h-[30%]   flex items-end">
-              <div className="w-full h-[50%]   flex items-end justify-end">
-                <div className="w-[32%] h-[60%] bg-[#057137] rounded-lg  flex items-center justify-center" >
-                  <h5 className="text-white" >Cost effective</h5>
+              <div className="w-full h-[50%]   flex items-end justify-end ">
+                <div className="md:w-[32%] md:h-[60%] w-[35%] h-[55%]  bg-[#057137] rounded-lg  flex items-center justify-center  " >
+                  <h5 className="text-white md:text-[1.2vw] text-[1.5vw]">Cost effective</h5>
                 </div>
               </div>
 
             </div>
             <div className="w-full h-[40%]  flex items-center " >
-              <div className="w-full h-[30%]  flex items-center">
-                <div className="w-[50%] h-[100%]  flex items-center justify-center">
-                  <div className="w-[50%] h-[75%] bg-[#3E0069] rounded-lg flex items-center justify-center">
-                    <h5 className="text-white">Advance tech</h5>
+              <div className="w-full h-[30%]  flex items-center   ">
+                <div className="w-[50%] h-[100%]  flex items-center md:justify-center justify-start ">
+                  <div className="md:w-[50%] md:h-[75%] w-[60%] h-[60%] bg-[#3E0069] rounded-lg flex items-center justify-center">
+                    <h5 className="text-white md:text-[1.2vw] text-[1.5vw] ">Advance tech</h5>
                   </div>
                 </div>
               </div>
@@ -66,7 +66,7 @@ function Homepage() {
         </div>
 
         <div className="w-full h-[70%]  flex items-center justify-center">
-          <div className="w-[95%] h-[90%]  grid grid-rows-2 grid-cols-3 items-center justify-items-center   md:flex-wrap">
+          <div className="w-[95%] h-[90%]  grid grid-rows-2 grid-cols-3 items-center justify-items-center  ">
 
 
             <div className="w-[80%] h-[70%] bg-white flex items-center justify-center">
@@ -250,16 +250,16 @@ function Homepage() {
         <div className="w-[50%] h-[70%]  flex flex-col ">
           <div className="w-full h-[33%]  flex items-center justify-center ">
             <div className="w-[35%] h-[40%] bg-[#DE6164] rounded-lg">
-              <button className="w-full h-[100%] rounded-lg text-white text-[1.3vw] font-[600]">More about us</button>
+            <button className="w-full h-[100%] rounded-lg text-white text-[1.3vw] font-[600]">More about us</button>
             </div>
           </div>
           <div className="w-full h-[33%]   flex items-center justify-center">
-            <h5 className="text-[1.8vw] tracking-wide">Let’s get your work done in the best way</h5>
-          </div>
+           <h5 className="text-[1.8vw] tracking-wide">Let’s get your work done in the best way</h5>
+           </div>
           <div className="w-full h-[33%]  flex items-center justify-center ">
-            <div className="w-[35%] h-[40%] bg-[#3E0069] rounded-lg">
-              <button className="w-full h-[100%] rounded-lg text-white text-[1.3vw] font-[600]">Contact us!</button>
-            </div>
+          <div className="w-[35%] h-[40%] bg-[#3E0069] rounded-lg">
+          <button className="w-full h-[100%] rounded-lg text-white text-[1.3vw] font-[600]">Contact us!</button>
+          </div>
           </div>
         </div>
       </div>
