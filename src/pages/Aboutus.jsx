@@ -1,13 +1,13 @@
-import officeImg from "../assets/officeBackgroundImage.png"
+import officeImg from "../assets/office.jpeg.jpg"
 import sideBarVector from "../assets/sideBarVector.png"
 
 function Aboutus() {
     return (
 
         <div className='w-full min-h-[100vh] flex  items-center flex-col '>
-            <div className="w-[100%] h-[75vh] bg-black flex items-center justify-center">
-                <div className=' w-[100%] h-[100%] bg-pink-900 flex items-center justify-center'>
-                    <img src={officeImg} className="w-[100%] h-[100%] bg-cover relative" alt="" />
+            <div className="w-[100%] h-[75vh]  flex items-center justify-center ">
+                <div className=' w-[100%] h-[100%]  flex items-center justify-center'>
+                    <img src={officeImg} className="w-[100%] h-[100%]   relative" alt="" />
                     <div className="w-[50%] h-[30%] bg-[#ffffff55]  absolute flex items-center justify-center rounded">
                         <h1 className="font-[600] text-[2vw] ">"Empowering Efficiency, Fueling Growth: <br />
                             Your Management Solution, Reinvented!"</h1>
