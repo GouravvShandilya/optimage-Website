@@ -89,99 +89,99 @@ function Homepage() {
             </div>
 
 
-          
+
             <div className="md:w-[80%] md:h-[70%] w-[90%] h-[50%]    flex items-center justify-center">
-            <button className="w-full h-[100%] bg-[#c9c9c923]  flex ">
-              <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] ">< LiaHotelSolid /></div>
-              <div className="md:w-[55%] md:h-[100%] w-[60%] h-[100%]    ">
-                <div className="w-full h-[50%]  flex items-end">
-                  <h1 className="md:text-[1.5vw] text-[3.5vw] font-[600]">Hotels</h1>
+              <button className="w-full h-[100%] bg-[#c9c9c923]  flex ">
+                <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] ">< LiaHotelSolid /></div>
+                <div className="md:w-[55%] md:h-[100%] w-[60%] h-[100%]    ">
+                  <div className="w-full h-[50%]  flex items-end">
+                    <h1 className="md:text-[1.5vw] text-[3.5vw] font-[600]">Hotels</h1>
+                  </div>
+                  <div className="w-full h-[50%]  flex items-start justify-start ">
+                    <h5 className="text-left md:text-[1vw] text-[1.5vw] ">Streamlining Hospitality, One Click at a Time.</h5>
+                  </div>
+
                 </div>
-                <div className="w-full h-[50%]  flex items-start justify-start ">
-                  <h5 className="text-left md:text-[1vw] text-[1.5vw] ">Streamlining Hospitality, One Click at a Time.</h5>
+                <div className="md:w-[30%] md:h-[100%] w-[20%] h-[100%]   flex items-center justify-center">
+                  <div className="md:w-[55%] md:h-[30%] w-[65%] h-[25%] bg-[#025E7F] rounded-lg flex items-center justify-center text-white text-[1.3vw]"><FaChevronRight /></div>
                 </div>
 
-              </div>
-              <div className="md:w-[30%] md:h-[100%] w-[20%] h-[100%]   flex items-center justify-center">
-                <div className="md:w-[55%] md:h-[30%] w-[65%] h-[25%] bg-[#025E7F] rounded-lg flex items-center justify-center text-white text-[1.3vw]"><FaChevronRight /></div>
-              </div>
-
-            </button>
-          </div>
-          <div className="md:w-[80%] md:h-[70%] w-[90%] h-[50%]    flex items-center justify-center">
-          <button className="w-full h-[100%] bg-[#c9c9c923]  flex ">
-            <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] ">< LiaHotelSolid /></div>
-            <div className="md:w-[55%] md:h-[100%] w-[60%] h-[100%]    ">
-              <div className="w-full h-[50%]  flex items-end">
-                <h1 className="md:text-[1.5vw] text-[3.5vw] font-[600]">Hotels</h1>
-              </div>
-              <div className="w-full h-[50%]  flex items-start justify-start ">
-                <h5 className="text-left md:text-[1vw] text-[1.5vw] ">Streamlining Hospitality, One Click at a Time.</h5>
-              </div>
-
+              </button>
             </div>
-            <div className="md:w-[30%] md:h-[100%] w-[20%] h-[100%]   flex items-center justify-center">
-              <div className="md:w-[55%] md:h-[30%] w-[65%] h-[25%] bg-[#025E7F] rounded-lg flex items-center justify-center text-white text-[1.3vw]"><FaChevronRight /></div>
+            <div className="md:w-[80%] md:h-[70%] w-[90%] h-[50%]    flex items-center justify-center">
+              <button className="w-full h-[100%] bg-[#c9c9c923]  flex ">
+                <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] ">< LiaHotelSolid /></div>
+                <div className="md:w-[55%] md:h-[100%] w-[60%] h-[100%]    ">
+                  <div className="w-full h-[50%]  flex items-end">
+                    <h1 className="md:text-[1.5vw] text-[3.5vw] font-[600]">Hotels</h1>
+                  </div>
+                  <div className="w-full h-[50%]  flex items-start justify-start ">
+                    <h5 className="text-left md:text-[1vw] text-[1.5vw] ">Streamlining Hospitality, One Click at a Time.</h5>
+                  </div>
+
+                </div>
+                <div className="md:w-[30%] md:h-[100%] w-[20%] h-[100%]   flex items-center justify-center">
+                  <div className="md:w-[55%] md:h-[30%] w-[65%] h-[25%] bg-[#025E7F] rounded-lg flex items-center justify-center text-white text-[1.3vw]"><FaChevronRight /></div>
+                </div>
+
+              </button>
+            </div>
+            <div className="md:w-[80%] md:h-[70%] w-[90%] h-[50%]    flex items-center justify-center">
+              <button className="w-full h-[100%] bg-[#c9c9c923]  flex ">
+                <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] ">< LiaHotelSolid /></div>
+                <div className="md:w-[55%] md:h-[100%] w-[60%] h-[100%]    ">
+                  <div className="w-full h-[50%]  flex items-end">
+                    <h1 className="md:text-[1.5vw] text-[3.5vw] font-[600]">Hotels</h1>
+                  </div>
+                  <div className="w-full h-[50%]  flex items-start justify-start ">
+                    <h5 className="text-left md:text-[1vw] text-[1.5vw] ">Streamlining Hospitality, One Click at a Time.</h5>
+                  </div>
+
+                </div>
+                <div className="md:w-[30%] md:h-[100%] w-[20%] h-[100%]   flex items-center justify-center">
+                  <div className="md:w-[55%] md:h-[30%] w-[65%] h-[25%] bg-[#025E7F] rounded-lg flex items-center justify-center text-white text-[1.3vw]"><FaChevronRight /></div>
+                </div>
+
+              </button>
+            </div>
+            <div className="md:w-[80%] md:h-[70%] w-[90%] h-[50%]    flex items-center justify-center">
+              <button className="w-full h-[100%] bg-[#c9c9c923]  flex ">
+                <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] ">< LiaHotelSolid /></div>
+                <div className="md:w-[55%] md:h-[100%] w-[60%] h-[100%]    ">
+                  <div className="w-full h-[50%]  flex items-end">
+                    <h1 className="md:text-[1.5vw] text-[3.5vw] font-[600]">Hotels</h1>
+                  </div>
+                  <div className="w-full h-[50%]  flex items-start justify-start ">
+                    <h5 className="text-left md:text-[1vw] text-[1.5vw] ">Streamlining Hospitality, One Click at a Time.</h5>
+                  </div>
+
+                </div>
+                <div className="md:w-[30%] md:h-[100%] w-[20%] h-[100%]   flex items-center justify-center">
+                  <div className="md:w-[55%] md:h-[30%] w-[65%] h-[25%] bg-[#025E7F] rounded-lg flex items-center justify-center text-white text-[1.3vw]"><FaChevronRight /></div>
+                </div>
+
+              </button>
+            </div>
+            <div className="md:w-[80%] md:h-[70%] w-[90%] h-[50%]    flex items-center justify-center">
+              <button className="w-full h-[100%] bg-[#c9c9c923]  flex ">
+                <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] ">< LiaHotelSolid /></div>
+                <div className="md:w-[55%] md:h-[100%] w-[60%] h-[100%]    ">
+                  <div className="w-full h-[50%]  flex items-end">
+                    <h1 className="md:text-[1.5vw] text-[3.5vw] font-[600]">Hotels</h1>
+                  </div>
+                  <div className="w-full h-[50%]  flex items-start justify-start ">
+                    <h5 className="text-left md:text-[1vw] text-[1.5vw] ">Streamlining Hospitality, One Click at a Time.</h5>
+                  </div>
+
+                </div>
+                <div className="md:w-[30%] md:h-[100%] w-[20%] h-[100%]   flex items-center justify-center">
+                  <div className="md:w-[55%] md:h-[30%] w-[65%] h-[25%] bg-[#025E7F] rounded-lg flex items-center justify-center text-white text-[1.3vw]"><FaChevronRight /></div>
+                </div>
+
+              </button>
             </div>
 
-          </button>
-        </div>
-        <div className="md:w-[80%] md:h-[70%] w-[90%] h-[50%]    flex items-center justify-center">
-        <button className="w-full h-[100%] bg-[#c9c9c923]  flex ">
-          <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] ">< LiaHotelSolid /></div>
-          <div className="md:w-[55%] md:h-[100%] w-[60%] h-[100%]    ">
-            <div className="w-full h-[50%]  flex items-end">
-              <h1 className="md:text-[1.5vw] text-[3.5vw] font-[600]">Hotels</h1>
-            </div>
-            <div className="w-full h-[50%]  flex items-start justify-start ">
-              <h5 className="text-left md:text-[1vw] text-[1.5vw] ">Streamlining Hospitality, One Click at a Time.</h5>
-            </div>
 
-          </div>
-          <div className="md:w-[30%] md:h-[100%] w-[20%] h-[100%]   flex items-center justify-center">
-            <div className="md:w-[55%] md:h-[30%] w-[65%] h-[25%] bg-[#025E7F] rounded-lg flex items-center justify-center text-white text-[1.3vw]"><FaChevronRight /></div>
-          </div>
-
-        </button>
-      </div>
-      <div className="md:w-[80%] md:h-[70%] w-[90%] h-[50%]    flex items-center justify-center">
-      <button className="w-full h-[100%] bg-[#c9c9c923]  flex ">
-        <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] ">< LiaHotelSolid /></div>
-        <div className="md:w-[55%] md:h-[100%] w-[60%] h-[100%]    ">
-          <div className="w-full h-[50%]  flex items-end">
-            <h1 className="md:text-[1.5vw] text-[3.5vw] font-[600]">Hotels</h1>
-          </div>
-          <div className="w-full h-[50%]  flex items-start justify-start ">
-            <h5 className="text-left md:text-[1vw] text-[1.5vw] ">Streamlining Hospitality, One Click at a Time.</h5>
-          </div>
-
-        </div>
-        <div className="md:w-[30%] md:h-[100%] w-[20%] h-[100%]   flex items-center justify-center">
-          <div className="md:w-[55%] md:h-[30%] w-[65%] h-[25%] bg-[#025E7F] rounded-lg flex items-center justify-center text-white text-[1.3vw]"><FaChevronRight /></div>
-        </div>
-
-      </button>
-    </div>
-    <div className="md:w-[80%] md:h-[70%] w-[90%] h-[50%]    flex items-center justify-center">
-    <button className="w-full h-[100%] bg-[#c9c9c923]  flex ">
-      <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] ">< LiaHotelSolid /></div>
-      <div className="md:w-[55%] md:h-[100%] w-[60%] h-[100%]    ">
-        <div className="w-full h-[50%]  flex items-end">
-          <h1 className="md:text-[1.5vw] text-[3.5vw] font-[600]">Hotels</h1>
-        </div>
-        <div className="w-full h-[50%]  flex items-start justify-start ">
-          <h5 className="text-left md:text-[1vw] text-[1.5vw] ">Streamlining Hospitality, One Click at a Time.</h5>
-        </div>
-
-      </div>
-      <div className="md:w-[30%] md:h-[100%] w-[20%] h-[100%]   flex items-center justify-center">
-        <div className="md:w-[55%] md:h-[30%] w-[65%] h-[25%] bg-[#025E7F] rounded-lg flex items-center justify-center text-white text-[1.3vw]"><FaChevronRight /></div>
-      </div>
-
-    </button>
-  </div>
-
-            
 
 
 
@@ -197,22 +197,22 @@ function Homepage() {
       </div>
 
 
-      <div className="w-full h-[100vh] ">
+      <div className="md:w-full md:h-[100vh] w-full h-[30vh] bg-pink-600 ">
         <div className="w-full h-[20%]  flex items-center justify-center">
-          <h1 className="text-[2.5vw] font-[600]">Our Values</h1>
+          <h1 className="md:text-[2.5vw] text-[3.5vw] font-[600]">Our Values</h1>
         </div>
         <div className="w-full h-[80%]  flex items-center justify-center">
 
           <div className="w-[70%] h-[100%]  flex justify-between ">
             <div className="w-[45%] h-[90%]  rounded-lg  flex flex-col items-center justify-center bg-[#EFEFEF]">
-              <div className="w-[90%] h-[15%]  flex items-end text-[4vw]">
+              <div className="w-[90%] h-[15%]  flex items-end md:text-[4vw] text-[5vw]">
                 <GiArcheryTarget />
               </div>
               <div className="w-[90%] h-[15%]  flex items-center">
-                <h1 className="text-[2vw] font-[500]">Our Mission</h1>
+                <h1 className="md:text-[2vw]  text-[3vw] font-[500]">Our Mission</h1>
               </div>
               <div className="w-[90%] h-[70%] ">
-                <p className=" text-left text-[1.2vw] leading-15 tracking-widest">
+                <p className=" text-left md:text-[1.2vw] text-[1.6vw] md:leading-15 md:tracking-widest tracking-wider">
                   Our mission is to empower our clients with state of the art software solutions tailored to their specific needs, ultimately enhancing productivity, decision-making capabilities, and customer satisfaction. We strive to be at the forefront of technological advancements and lead the way in providing cutting edge software and IoT solutions.
                 </p>
               </div>
@@ -244,16 +244,16 @@ function Homepage() {
         <div className="w-[50%] h-[70%]  flex flex-col ">
           <div className="w-full h-[33%]  flex items-center justify-center ">
             <div className="w-[35%] h-[40%] bg-[#DE6164] rounded-lg">
-            <button className="w-full h-[100%] rounded-lg text-white text-[1.3vw] font-[600]">More about us</button>
+              <button className="w-full h-[100%] rounded-lg text-white text-[1.3vw] font-[600]">More about us</button>
             </div>
           </div>
           <div className="w-full h-[33%]   flex items-center justify-center">
-           <h5 className="text-[1.8vw] tracking-wide">Let’s get your work done in the best way</h5>
-           </div>
-          <div className="w-full h-[33%]  flex items-center justify-center ">
-          <div className="w-[35%] h-[40%] bg-[#3E0069] rounded-lg">
-          <button className="w-full h-[100%] rounded-lg text-white text-[1.3vw] font-[600]">Contact us!</button>
+            <h5 className="text-[1.8vw] tracking-wide">Let’s get your work done in the best way</h5>
           </div>
+          <div className="w-full h-[33%]  flex items-center justify-center ">
+            <div className="w-[35%] h-[40%] bg-[#3E0069] rounded-lg">
+              <button className="w-full h-[100%] rounded-lg text-white text-[1.3vw] font-[600]">Contact us!</button>
+            </div>
           </div>
         </div>
       </div>
