@@ -6,50 +6,54 @@ import { CiLinkedin } from "react-icons/ci";
 
 function Footer() {
   return (
-    <div className="w-full h-[60vh]  flex flex-col justify-between bg-[#EFEFEF]">
-      <div className="w-full h-[20%] flex items-center justify-center ">  <div className="w-[95%] h-[85%] "> <img className="w-[15%]" src={osplLogo} alt="" /> </div>  </div>
+    <div className="md:w-full md:h-[60vh] w-full h-[25vh]  flex flex-col justify-between bg-[#00000025] ">
+      <div className="md:w-full md:h-[20%] w-full h-[20%] flex items-center justify-center  ">  
+      <div className="w-[95%]  h-[85%] "> 
+      <img className="md:w-[15%] w-[25%]" src={osplLogo} alt="" />
+       </div> 
+        </div>
 
 
 
       <div className="w-full h-[60%]  flex items-center justify-center ">
-        <div className="w-[95%] h-[85%]   flex justify-between flex-col md:flex-row">
+        <div className="  md:w-[95%] md:h-[85%] w-[100%] h-[100%]  flex justify-between ">
 
 
        {/** Links part */}
-          <div className="w-[33%] h-[100%]  flex flex-col justify-around  ">
+          <div className="   md:w-[33%] md:h-[100%] w-[33%] h-[100%]  flex flex-col justify-around  ">
             <div className="w-full h-[20%] flex items-center">
-              <h1 className="text-[1.5vw]">Links</h1>
+              <h1 className="md:text-[1.2vw] md:font-[500] text-[4vw] tracking-widest font-[500]">Links</h1>
             </div>
-            <div className="w-full h-[10%] ">
-              <Link>Home</Link>
+            <div className=" w-full h-[10%]  flex items-center ">
+              <Link className="md:text-[1.2vw] text-[2.5vw]">Home</Link>
             </div>
-            <div className="w-full h-[10%] ">
-              <Link>About Us</Link>
+            <div className="w-full h-[10%]  flex items-center ">
+              <Link className="md:text-[1.2vw] text-[2.5vw]" >About Us</Link>
             </div>
-            <div className="w-full h-[10%] ">
-              <Link>Products</Link>
+            <div className="w-full h-[10%] flex items-center ">
+              <Link className="md:text-[1.2vw] text-[2.5vw]" >Products</Link>
             </div>
-            <div className="w-full h-[10%] ">
-              <Link>Contact Us</Link>
+            <div className="w-full h-[10%] flex items-center ">
+              <Link className="md:text-[1.2vw] text-[2.5vw]" >Contact Us</Link>
             </div>
           </div>
 
 
        {/** Privacy part */}
 
-          <div className="w-[33%] h-[100%] ">
+          <div className="md:w-[33%] md:h-[100%] w-[33%] h-[100%]  ">
             <div className="w-[100%] h-[100%]  flex flex-col justify-around  ">
               <div className="w-full h-[20%] flex items-center">
-                <h1 className="text-[1.5vw]">Privacy</h1>
+                <h1 className="md:text-[1.2vw] md:font-[500] text-[4vw] tracking-widest font-[500]">Privacy</h1>
               </div>
-              <div className="w-full h-[10%] ">
-                <Link>Privacy Policy</Link>
+              <div className=" w-full h-[10%]  flex items-center ">
+                <Link className="md:text-[1.2vw] text-[2.5vw]">Privacy Policy</Link>
               </div>
-              <div className="w-full h-[10%] ">
-                <Link>Terms and Conditions</Link>
+              <div className=" w-full h-[10%]  flex items-center ">
+                <Link className="md:text-[1.2vw] text-[2.5vw]"  >Terms and Conditions</Link>
               </div>
-              <div className="w-full h-[10%] ">
-                <Link>Refund Policy</Link>
+              <div className=" w-full h-[10%]  flex items-center ">
+                <Link className="md:text-[1.2vw] text-[2.5vw]" >Refund Policy</Link>
               </div>
           
             </div>
@@ -57,21 +61,21 @@ function Footer() {
 
 
        {/** Contact part */}
-          <div className="w-[33%] h-[100%] ">
-            <div className="w-[100%] h-[100%]  flex flex-col justify-around  ">
-              <div className="w-full h-[20%] flex items-center">
-                <h1 className="text-[1.5vw]">Contact</h1>
+          <div className="md:w-[33%] md:h-[100%] w-[33%] h-[100%] ">
+            <div className="w-[100%] h-[100%]  flex flex-col justify-around   ">
+              <div className="w-full h-[20%] flex items-center ">
+                <h1 className="md:text-[1.5vw] text-[4vw] tracking-widest font-[400]">Contact</h1>
               </div>
-              <div className="w-full  h-[10%] ">
-                <Link>+91 8602800258</Link>
+              <div className=" w-full h-[10%]  flex items-center ">
+                <Link  className="md:text-[1.2vw] text-[2.5vw]">+91 8602800258</Link>
               </div>
-              <div className="w-full h-[10%] ">
-                <Link>sonuyadav@optimanage.co.in</Link>
+              <div className=" w-full h-[10%]  flex items-center ">
+                <Link className="md:text-[1.2vw] text-[2.5vw]" >sonuyadav@optimanage.co.in</Link>
               </div>
-              <div className="w-[20%]  h-[15%] flex items-center justify-between ">
-                <Link className="text-[1.4vw]" ><FaInstagram /></Link>
-                <Link className="text-[1.4vw]" ><FaWhatsapp/></Link>
-                <Link className="text-[1.4vw]" ><CiLinkedin /> </Link>
+              <div className="md:w-[20%]  md:h-[15%] w-[60%] h-[15%] flex items-center justify-between ">
+                <Link className="md:text-[1.4vw] text-[4.5vw]" ><FaInstagram /></Link>
+                <Link className="md:text-[1.4vw] text-[4.5vw]" ><FaWhatsapp/></Link>
+                <Link className="md:text-[1.4vw] text-[4.5vw]" ><CiLinkedin /> </Link>
               </div>
              
             </div>
@@ -82,7 +86,7 @@ function Footer() {
       </div>
       <div className="w-full h-[15%]  flex items-center justify-center ">
        <div className="  ">
-       <h5>OptiManage Software Private Limited 2023</h5>
+       <h5 className="md:text-[1.8vw] text-[2.5vw] "  >OptiManage Software Private Limited 2023</h5>
        </div>
       
       

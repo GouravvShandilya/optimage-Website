@@ -19,7 +19,7 @@ function Homepage() {
             </div>
             <div className="w-full h-[50%]  ">
               <div className="w-full h-[50%]  flex items-center ">
-                <div className="md:w-[45%] md:h-[50%] bg-[#045E2E] rounded-[1.5vw] w-[55%] h-[40%] ">
+                <div className="md:w-[40%] md:h-[45%] bg-[#045E2E] rounded-xl w-[55%] h-[40%] ">
                   <button className="w-full h-[100%] rounded-[1.5vw] text-[1.8vw] font-[600] text-white">Book a free demo</button>
                 </div>
               </div>
@@ -243,16 +243,16 @@ function Homepage() {
       <div className="md:w-full md:h-[100vh] w-full h-[30vh]  flex items-center justify-center ">
         <div className="md:w-[50%] md:h-[70%] w-[50%] h-[60%] flex flex-col  ">
           <div className="w-full h-[33%]  flex items-center justify-center ">
-            <div className="md:w-[35%] md:h-[40%] w-[45%] h-[40%] bg-[#DE6164] rounded-lg">
-              <button className="w-full h-[100%] rounded-lg  text-white md:text-[1.3vw]  flex items-center justify-center text-[2.5vw] font-[600]">More about us</button>
+            <div className="md:w-[35%] md:h-[40%] w-[45%] h-[40%] bg-[#DE6164] rounded-md">
+              <button className="w-full h-[100%] rounded-md  text-white md:text-[1.3vw]  flex items-center justify-center text-[2.5vw] font-[600]">More about us</button>
             </div>
           </div>
           <div className="w-full h-[33%]   flex items-center justify-center">
             <h5 className="md:text-[1.8vw] text-[3vw] text-center  tracking-wide">Let’s get your work done in the best way</h5>
           </div>
           <div className="w-full h-[33%]  flex items-center justify-center ">
-            <div className="w-[35%] h-[40%] bg-[#3E0069] rounded-lg">
-              <button className="w-full h-[100%] rounded-lg  text-white md:text-[1.3vw]  flex items-center justify-center text-[2vw] font-[600]">Contact us!</button>
+            <div className="w-[35%] h-[40%] bg-[#3E0069] rounded-md">
+              <button className="w-full h-[100%] rounded-md  text-white md:text-[1.3vw]  flex items-center justify-center text-[2vw] font-[600]">Contact us!</button>
             </div>
           </div>
         </div>
