@@ -71,7 +71,7 @@ function Homepage() {
 
             <div className="md:w-[80%] md:h-[70%] w-[100%] h-[50%]  bg-white flex items-center justify-center">
               <button className="w-full h-[100%] bg-[#c9c9c923]  flex ">
-                <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center justify-end md:text-[3vw] text-[4vw] ">< LiaHotelSolid /></div>
+                <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] ">< LiaHotelSolid /></div>
                 <div className="md:w-[55%] md:h-[100%] w-[60%] h-[100%]    ">
                   <div className="w-full h-[50%]  flex items-end">
                     <h1 className="md:text-[1.5vw] text-[3.5vw] font-[600]">Hotels</h1>
