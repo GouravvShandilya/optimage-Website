@@ -25,16 +25,16 @@ function Footer() {
               <h1 className="md:text-[1.2vw] md:font-[500] text-[4vw] tracking-widest font-[500]">Links</h1>
             </div>
             <div className=" w-full h-[10%]  flex items-center ">
-              <Link className="md:text-[1.2vw] text-[2.5vw]">Home</Link>
+              <Link to="/" className="md:text-[1.2vw] text-[2.5vw]">Home</Link>
             </div>
             <div className="w-full h-[10%]  flex items-center ">
-              <Link className="md:text-[1.2vw] text-[2.5vw]" >About Us</Link>
+              <Link to="/aboutus" className="md:text-[1.2vw] text-[2.5vw]" >About Us</Link>
             </div>
             <div className="w-full h-[10%] flex items-center ">
-              <Link className="md:text-[1.2vw] text-[2.5vw]" >Products</Link>
+              <Link to="/productpage" className="md:text-[1.2vw] text-[2.5vw]" >Products</Link>
             </div>
             <div className="w-full h-[10%] flex items-center ">
-              <Link className="md:text-[1.2vw] text-[2.5vw]" >Contact Us</Link>
+              <Link  className="md:text-[1.2vw] text-[2.5vw]" >Contact Us</Link>
             </div>
           </div>
 
@@ -70,12 +70,12 @@ function Footer() {
                 <Link  className="md:text-[1.2vw] text-[2.5vw]">+91 8602800258</Link>
               </div>
               <div className=" w-full h-[10%]  flex items-center ">
-                <Link className="md:text-[1.2vw] text-[2.5vw]" >sonuyadav@optimanage.co.in</Link>
+                <Link  to="https://mail.google.com/" target="_blank" rel="noopener noreferrer" className="md:text-[1.2vw] text-[2.5vw]" >info@optimanage.co.in</Link>
               </div>
               <div className="md:w-[20%]  md:h-[15%] w-[60%] h-[15%] flex items-center justify-between ">
-                <Link className="md:text-[1.4vw] text-[4.5vw]" ><FaInstagram /></Link>
+                <Link  to="https://www.instagram.com/optimanage.co.in/" target="_blank" rel="noopener noreferrer"   className="md:text-[1.4vw] text-[4.5vw]" ><FaInstagram /></Link>
                 <Link className="md:text-[1.4vw] text-[4.5vw]" ><FaWhatsapp/></Link>
-                <Link className="md:text-[1.4vw] text-[4.5vw]" ><CiLinkedin /> </Link>
+                <Link to="https://www.linkedin.com/company/optimanage/mycompany/" target="_blank" rel="noopener noreferrer"  className="md:text-[1.4vw] text-[4.5vw]" ><CiLinkedin /> </Link>
               </div>
              
             </div>
@@ -86,7 +86,7 @@ function Footer() {
       </div>
       <div className="w-full h-[15%]  flex items-center justify-center ">
        <div className="  ">
-       <h5 className="md:text-[1.8vw] text-[2.5vw] "  >OptiManage Software Private Limited 2023</h5>
+       <h5 className="md:text-[1.2vw] text-[2.5vw] "  >OptiManage Software Private Limited 2023</h5>
        </div>
       
       
