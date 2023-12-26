@@ -86,7 +86,7 @@ function Aboutus() {
                                 <div className="w-full h-[12%] ">
                                     <div className="w-full h-[20%]  flex">
                                         <div className="w-[2%] h-full  flex items-center ">
-                                            <div className="md:w-[50%] md:h-[50%] w-[60%] h-[70%] bg-[#21718E] rounded"></div>
+                                            <div className="md:w-[50%] md:h-[50%] w-[50%] h-[60%] bg-[#21718E] rounded"></div>
                                         </div>
                                         <div className="w-[95%] h-full ">
                                             <div className="md:w-[50%] md:h-full w-[80%] h-[100%]  flex items-center ">
@@ -108,7 +108,7 @@ function Aboutus() {
                                 <div className="w-full h-[12%] ">
                                 <div className="w-full h-[20%]  flex">
                                     <div className="w-[2%] h-full  flex items-center ">
-                                        <div className="md:w-[50%] md:h-[50%] w-[60%] h-[70%] bg-[#21718E] rounded"></div>
+                                        <div className="md:w-[50%] md:h-[50%] w-[50%] h-[60%] bg-[#21718E] rounded"></div>
                                     </div>
                                     <div className="w-[95%] h-full ">
                                         <div className="md:w-[50%] md:h-full w-[80%] h-[100%]  flex items-center ">
@@ -155,7 +155,7 @@ function Aboutus() {
                         <div className="w-full h-[12%] ">
                         <div className="w-full h-[20%]  flex">
                             <div className="w-[2%] h-full  flex items-center ">
-                                <div className="md:w-[50%] md:h-[50%] w-[60%] h-[70%] bg-[#21718E] rounded"></div>
+                                <div className="md:w-[50%] md:h-[50%] w-[50%] h-[60%] bg-[#21718E] rounded"></div>
                             </div>
                             <div className="w-[95%] h-full ">
                                 <div className="md:w-[50%] md:h-full w-[80%] h-[100%]  flex items-center ">
@@ -179,7 +179,7 @@ function Aboutus() {
                     <div className="w-full h-[12%] ">
                     <div className="w-full h-[20%]  flex">
                         <div className="w-[2%] h-full  flex items-center ">
-                            <div className="md:w-[50%] md:h-[50%] w-[60%] h-[70%] bg-[#21718E] rounded"></div>
+                            <div className="md:w-[50%] md:h-[50%] w-[50%] h-[60%] bg-[#21718E] rounded"></div>
                         </div>
                         <div className="w-[95%] h-full ">
                             <div className="md:w-[50%] md:h-full w-[80%] h-[100%]  flex items-center ">
