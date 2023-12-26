@@ -3,6 +3,12 @@ import { LiaHotelSolid } from "react-icons/lia";
 import { FaChevronRight } from "react-icons/fa6";
 import { GiArcheryTarget } from "react-icons/gi";
 import { TbDeviceVisionPro } from "react-icons/tb";
+import { GiHumanPyramid } from "react-icons/gi";
+import { GiCrystalGrowth } from "react-icons/gi";
+import { GoLaw } from "react-icons/go";
+import { GiReceiveMoney } from "react-icons/gi";
+import { MdOutlineMiscellaneousServices } from "react-icons/md"
+
 
 function Homepage() {
   return (
@@ -62,7 +68,7 @@ function Homepage() {
 
       <div className="md:w-full md:h-[100vh] w-full h-[50vh]  ">
         <div className="w-full h-[10%]  flex items-center justify-center">
-          <h1 className="md:text-[2vw] text-[4vw] md:font-[400] font-[500]">Our Apps</h1>
+          <h1 className="md:text-[2vw] text-[4vw] md:font-[400] font-[500]">Our Softwares</h1>
         </div>
 
         <div className="w-full h-[70%]  flex items-center justify-center ">
@@ -92,13 +98,13 @@ function Homepage() {
 
             <div className="md:w-[80%] md:h-[70%] w-[90%] h-[50%]    flex items-center justify-center">
               <button className="w-full h-[100%] bg-[#c9c9c923]  flex ">
-                <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] ">< LiaHotelSolid /></div>
+                <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] ">< GiHumanPyramid/></div>
                 <div className="md:w-[55%] md:h-[100%] w-[60%] h-[100%]    ">
                   <div className="w-full h-[50%]  flex items-end">
-                    <h1 className="md:text-[1.5vw] text-[3.5vw] font-[600]">Hotels</h1>
+                    <h1 className="md:text-[1.5vw] text-[3.5vw] font-[600]">Humans</h1>
                   </div>
                   <div className="w-full h-[50%]  flex items-start justify-start ">
-                    <h5 className="text-left md:text-[1vw] text-[1.5vw] ">Streamlining Hospitality, One Click at a Time.</h5>
+                    <h5 className="text-left md:text-[1vw] text-[1.5vw] ">Revolutionizing HR: Empower Success, Enable Talent.</h5>
                   </div>
 
                 </div>
@@ -110,13 +116,13 @@ function Homepage() {
             </div>
             <div className="md:w-[80%] md:h-[70%] w-[90%] h-[50%]    flex items-center justify-center">
               <button className="w-full h-[100%] bg-[#c9c9c923]  flex ">
-                <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] ">< LiaHotelSolid /></div>
+                <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] "><GiCrystalGrowth/></div>
                 <div className="md:w-[55%] md:h-[100%] w-[60%] h-[100%]    ">
                   <div className="w-full h-[50%]  flex items-end">
-                    <h1 className="md:text-[1.5vw] text-[3.5vw] font-[600]">Hotels</h1>
+                    <h1 className="md:text-[1.5vw] text-[3.5vw] font-[600]">Sales</h1>
                   </div>
                   <div className="w-full h-[50%]  flex items-start justify-start ">
-                    <h5 className="text-left md:text-[1vw] text-[1.5vw] ">Streamlining Hospitality, One Click at a Time.</h5>
+                    <h5 className="text-left md:text-[1vw] text-[1.5vw] ">Coming soon...</h5>
                   </div>
 
                 </div>
@@ -128,13 +134,13 @@ function Homepage() {
             </div>
             <div className="md:w-[80%] md:h-[70%] w-[90%] h-[50%]    flex items-center justify-center">
               <button className="w-full h-[100%] bg-[#c9c9c923]  flex ">
-                <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] ">< LiaHotelSolid /></div>
+                <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] "><GoLaw/></div>
                 <div className="md:w-[55%] md:h-[100%] w-[60%] h-[100%]    ">
                   <div className="w-full h-[50%]  flex items-end">
-                    <h1 className="md:text-[1.5vw] text-[3.5vw] font-[600]">Hotels</h1>
+                    <h1 className="md:text-[1.5vw] text-[3.5vw] font-[600]">Legal</h1>
                   </div>
                   <div className="w-full h-[50%]  flex items-start justify-start ">
-                    <h5 className="text-left md:text-[1vw] text-[1.5vw] ">Streamlining Hospitality, One Click at a Time.</h5>
+                    <h5 className="text-left md:text-[1vw] text-[1.5vw] ">Coming soon...</h5>
                   </div>
 
                 </div>
@@ -146,13 +152,13 @@ function Homepage() {
             </div>
             <div className="md:w-[80%] md:h-[70%] w-[90%] h-[50%]    flex items-center justify-center">
               <button className="w-full h-[100%] bg-[#c9c9c923]  flex ">
-                <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] ">< LiaHotelSolid /></div>
+                <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] "><GiReceiveMoney/></div>
                 <div className="md:w-[55%] md:h-[100%] w-[60%] h-[100%]    ">
                   <div className="w-full h-[50%]  flex items-end">
-                    <h1 className="md:text-[1.5vw] text-[3.5vw] font-[600]">Hotels</h1>
+                    <h1 className="md:text-[1.5vw] text-[3.5vw] font-[600]">Finance</h1>
                   </div>
                   <div className="w-full h-[50%]  flex items-start justify-start ">
-                    <h5 className="text-left md:text-[1vw] text-[1.5vw] ">Streamlining Hospitality, One Click at a Time.</h5>
+                    <h5 className="text-left md:text-[1vw] text-[1.5vw] ">Coming soon...</h5>
                   </div>
 
                 </div>
@@ -164,13 +170,13 @@ function Homepage() {
             </div>
             <div className="md:w-[80%] md:h-[70%] w-[90%] h-[50%]    flex items-center justify-center">
               <button className="w-full h-[100%] bg-[#c9c9c923]  flex ">
-                <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] ">< LiaHotelSolid /></div>
+                <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] "> <MdOutlineMiscellaneousServices /> </div>
                 <div className="md:w-[55%] md:h-[100%] w-[60%] h-[100%]    ">
                   <div className="w-full h-[50%]  flex items-end">
-                    <h1 className="md:text-[1.5vw] text-[3.5vw] font-[600]">Hotels</h1>
+                    <h1 className="md:text-[1.5vw] text-[3.5vw] font-[600]">Services</h1>
                   </div>
                   <div className="w-full h-[50%]  flex items-start justify-start ">
-                    <h5 className="text-left md:text-[1vw] text-[1.5vw] ">Streamlining Hospitality, One Click at a Time.</h5>
+                    <h5 className="text-left md:text-[1vw] text-[1.5vw] ">Coming soon...</h5>
                   </div>
 
                 </div>
