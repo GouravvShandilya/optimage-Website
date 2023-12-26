@@ -69,7 +69,7 @@ function Aboutus() {
             {/** main 3 */}
             <div className="w-full min-h-[100vh]  ">
                 <div className="w-full h-auto flex">
-                    <div className="w-[30%] h-auto  ">
+                    <div className="w-[30%] h-[100%]  ">
                         <img className="w-auto" src={sideBarVector} alt="" />
                     </div>
 
@@ -106,101 +106,101 @@ function Aboutus() {
                                 </div>
 
                                 <div className="w-full h-[12%] ">
-                                <div className="w-full h-[20%]  flex">
-                                    <div className="w-[2%] h-full  flex items-center ">
-                                        <div className="md:w-[50%] md:h-[50%] w-[50%] h-[60%] bg-[#21718E] rounded"></div>
-                                    </div>
-                                    <div className="w-[95%] h-full ">
-                                        <div className="md:w-[50%] md:h-full w-[80%] h-[100%]  flex items-center ">
-                                            <h1 className="md:text-[1.5vw] text-[2.5vw] font-[400]">Tailored Solutions</h1>
+                                    <div className="w-full h-[20%]  flex">
+                                        <div className="w-[2%] h-full  flex items-center ">
+                                            <div className="md:w-[50%] md:h-[50%] w-[50%] h-[60%] bg-[#21718E] rounded"></div>
+                                        </div>
+                                        <div className="w-[95%] h-full ">
+                                            <div className="md:w-[50%] md:h-full w-[80%] h-[100%]  flex items-center ">
+                                                <h1 className="md:text-[1.5vw] text-[2.5vw] font-[400]">Tailored Solutions</h1>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                <div className="w-full h-[90%] ">
-                                    <div className="md:w-[70%] md:h-[70%] w-[85%] h-[75%]  flex items-center  ">
-                                        <p className="md:text-[1.5vw] text-[2.5vw]">
-                                        We offer personalized solutions to fit your unique business needs, ensuring that our system adapts seamlessly to your industry and requirements.
-                                        </p>
+                                    <div className="w-full h-[90%] ">
+                                        <div className="md:w-[70%] md:h-[70%] w-[85%] h-[75%]  flex items-center  ">
+                                            <p className="md:text-[1.5vw] text-[2.5vw]">
+                                                We offer personalized solutions to fit your unique business needs, ensuring that our system adapts seamlessly to your industry and requirements.
+                                            </p>
+                                        </div>
                                     </div>
+
                                 </div>
 
-                            </div>
 
-
-                            <div className="w-full h-[12%] ">
-                            <div className="w-full h-[20%]  flex">
-                                <div className="w-[2%] h-full  flex items-center ">
-                                    <div className="md:w-[50%] md:h-[50%] w-[50%] h-[60%] bg-[#21718E] rounded"></div>
-                                </div>
-                                <div className="w-[95%] h-full ">
-                                    <div className="md:w-[50%] md:h-full w-[80%] h-[100%]  flex items-center ">
-                                        <h1 className="md:text-[1.5vw] text-[2.5vw] font-[400]">Enhanced Efficiency
-                                        </h1>
+                                <div className="w-full h-[12%] ">
+                                    <div className="w-full h-[20%]  flex">
+                                        <div className="w-[2%] h-full  flex items-center ">
+                                            <div className="md:w-[50%] md:h-[50%] w-[50%] h-[60%] bg-[#21718E] rounded"></div>
+                                        </div>
+                                        <div className="w-[95%] h-full ">
+                                            <div className="md:w-[50%] md:h-full w-[80%] h-[100%]  flex items-center ">
+                                                <h1 className="md:text-[1.5vw] text-[2.5vw] font-[400]">Enhanced Efficiency
+                                                </h1>
+                                            </div>
+                                        </div>
                                     </div>
+
+                                    <div className="w-full h-[90%] ">
+                                        <div className="md:w-[70%] md:h-[70%] w-[85%] h-[95%] flex items-center  ">
+                                            <p className="md:text-[1.5vw] text-[2.5vw]">
+                                                Experience heightened efficiency and productivity as our system automates processes, allowing you to focus more on growing your business and less on routine tasks.
+                                            </p>
+                                        </div>
+                                    </div>
+
                                 </div>
-                            </div>
 
-                            <div className="w-full h-[90%] ">
-                                <div className="md:w-[70%] md:h-[70%] w-[85%] h-[95%] flex items-center  ">
-                                    <p className="md:text-[1.5vw] text-[2.5vw]">
-                                    Experience heightened efficiency and productivity as our system automates processes, allowing you to focus more on growing your business and less on routine tasks.
-                                    </p>
+
+                                <div className="w-full h-[12%] ">
+                                    <div className="w-full h-[20%]  flex">
+                                        <div className="w-[2%] h-full  flex items-center ">
+                                            <div className="md:w-[50%] md:h-[50%] w-[50%] h-[60%] bg-[#21718E] rounded"></div>
+                                        </div>
+                                        <div className="w-[95%] h-full ">
+                                            <div className="md:w-[50%] md:h-full w-[80%] h-[100%]  flex items-center ">
+                                                <h1 className="md:text-[1.5vw] text-[2.5vw] font-[400]">Reliable Support</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="w-full h-[90%] ">
+                                        <div className="md:w-[70%] md:h-[70%] w-[85%] h-[95%]  flex items-center  ">
+                                            <p className="md:text-[1.5vw] text-[2.5vw]">
+                                                Our dedicated support team is always available to assist you, providing prompt responses and continuous improvements to ensure a smooth and satisfying user experience.
+                                            </p>
+                                        </div>
+                                    </div>
+
                                 </div>
-                            </div>
-
-                        </div>
 
 
-                        <div className="w-full h-[12%] ">
-                        <div className="w-full h-[20%]  flex">
-                            <div className="w-[2%] h-full  flex items-center ">
-                                <div className="md:w-[50%] md:h-[50%] w-[50%] h-[60%] bg-[#21718E] rounded"></div>
-                            </div>
-                            <div className="w-[95%] h-full ">
-                                <div className="md:w-[50%] md:h-full w-[80%] h-[100%]  flex items-center ">
-                                    <h1 className="md:text-[1.5vw] text-[2.5vw] font-[400]">Reliable Support</h1>
+
+                                <div className="w-full h-[12%] ">
+                                    <div className="w-full h-[20%]  flex">
+                                        <div className="w-[2%] h-full  flex items-center ">
+                                            <div className="md:w-[50%] md:h-[50%] w-[50%] h-[60%] bg-[#21718E] rounded"></div>
+                                        </div>
+                                        <div className="w-[95%] h-full ">
+                                            <div className="md:w-[50%] md:h-full w-[80%] h-[100%]  flex items-center ">
+                                                <h1 className="md:text-[1.5vw] text-[2.5vw] font-[400]">Scalability and Growth</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="w-full h-[90%] ">
+                                        <div className="md:w-[70%] md:h-[70%] w-[85%] h-[75%]  flex items-center  ">
+                                            <p className="md:text-[1.5vw] text-[2.5vw]">
+                                                With scalability at its core, our system grows with your business, ensuring it remains a reliable asset as your company expands and evolves.
+                                            </p>
+                                        </div>
+                                    </div>
+
                                 </div>
-                            </div>
-                        </div>
-
-                        <div className="w-full h-[90%] ">
-                            <div className="md:w-[70%] md:h-[70%] w-[85%] h-[95%]  flex items-center  ">
-                                <p className="md:text-[1.5vw] text-[2.5vw]">
-                                Our dedicated support team is always available to assist you, providing prompt responses and continuous improvements to ensure a smooth and satisfying user experience.
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                    
-                    <div className="w-full h-[12%] ">
-                    <div className="w-full h-[20%]  flex">
-                        <div className="w-[2%] h-full  flex items-center ">
-                            <div className="md:w-[50%] md:h-[50%] w-[50%] h-[60%] bg-[#21718E] rounded"></div>
-                        </div>
-                        <div className="w-[95%] h-full ">
-                            <div className="md:w-[50%] md:h-full w-[80%] h-[100%]  flex items-center ">
-                                <h1 className="md:text-[1.5vw] text-[2.5vw] font-[400]">Scalability and Growth</h1>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="w-full h-[90%] ">
-                        <div className="md:w-[70%] md:h-[70%] w-[85%] h-[75%]  flex items-center  ">
-                            <p className="md:text-[1.5vw] text-[2.5vw]">
-                            With scalability at its core, our system grows with your business, ensuring it remains a reliable asset as your company expands and evolves.
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
 
 
 
-                               
+
 
 
 
@@ -218,17 +218,21 @@ function Aboutus() {
 
             {/** main 4 */}
 
-            <div className="w-full h-[100vh] flex items-center justify-center">
-                <div className="w-[60%] h-[40%]  flex flex-col justify-evenly">
+            <div className="md:w-full md:h-[100vh] w-full h-[30vh]  flex items-center justify-center">
+                <div className="md:w-[60%] md:h-[40%]  w-[86%] h-[60%] flex flex-col justify-evenly">
 
-                    <div className="w-full h-[33%]  flex items-center justify-center "> <h1 className="font-[700] text-[1.5vw]">Get you one stop solution now!</h1>  </div>
-                    <div className="w-full h-[33%]  flex items-center justify-center "> <h4 className="font-[500] text-[1vw]">Book a free demo</h4>  </div>
+                    <div className="w-full h-[33%]  flex items-center justify-center"> <h1 className="font-[700]  md:text-[1.5vw]  text-[2.5vw]">Get you one stop solution now!</h1>  </div>
+                    <div className="w-full h-[33%]  flex items-center justify-center "> <h4 className="font-[500] md:text-[1vw] text-[2.5vw]">Book a free demo</h4>  </div>
                     <div className="w-full h-[33%]  flex items-center justify-evenly">
 
-                        <div className="w-[55%] h-[50%] flex items-center justify-evenly">
-                            <div className="w-[40%] h-[100%]  rounded-lg bg-[#FD575B] "><button className="w-[100%]  rounded-lg h-[100%] text-[1vw] font-[700] text-white">SIGN UP</button></div>
-                            <div className="w-[10%] h-[100%]  flex items-center justify-center"><h4>Or</h4></div>
-                            <div className="w-[40%] h-[100%] rounded-lg bg-[#FD575B] "><button className="w-[100%]  rounded-lg h-[100%] text-[1vw] font-[700] text-white">CONTACT US</button> </div>
+                        <div className="md:w-[55%] md:h-[50%] w-[65%] h-[60%] flex items-center justify-evenly ">
+                            <div className="md:w-[40%] md:h-[100%] w-[30%] h-[85%]  rounded-lg bg-[#FD575B] ">
+                            <button className="w-[100%]  rounded-lg h-[100%] md:text-[1vw] text-[2vw] md:font-[700] font-[500] flex items-center justify-center text-white">SIGN UP</button>
+                            </div>
+                            <div className="w-[10%] h-[100%]  flex items-center justify-center"><h4 className="md:text-[1vw] text-[2vw]">Or</h4></div>
+                            <div className="md:w-[40%] md:h-[100%] w-[30%] h-[85%] rounded-lg bg-[#FD575B] ">
+                            <button className="w-[100%]  rounded-lg h-[100%] md:text-[1vw] text-[2vw] md:font-[700] font-[500] flex items-center justify-center text-white">CONTACT US</button>
+                             </div>
                         </div>
 
 
