@@ -6,6 +6,8 @@ import Aboutus from "./pages/Aboutus.jsx";
 import Homepage from "./pages/Homepage.jsx";
 import Productpage from "./pages/Productpage.jsx";
 import Hotelmanagement from "./pages/Hotelmanagement.jsx";
+import HRmanagement from './pages/HRmanagement.jsx'
+
 
 const router = createBrowserRouter([
   {
@@ -28,6 +30,11 @@ const router = createBrowserRouter([
         path: "/hotelmanagement",
         element: <Hotelmanagement />,
       },
+      {
+        path: "/HRmanagement",
+        element: <HRmanagement />,
+      },
+      
     ],
   },
 ]);
