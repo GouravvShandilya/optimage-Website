@@ -5,6 +5,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Aboutus from './pages/Aboutus.jsx'
 import Homepage from './pages/Homepage.jsx'
 import Productpage from './pages/Productpage.jsx'
+import Hotelmanagement from './pages/Hotelmanagement.jsx'
 
 
 
@@ -28,7 +29,11 @@ const router = createBrowserRouter([
         path: "/productpage",
         element:<Productpage/> ,
 
-      }
+      },
+      {
+        path: "/hotelmanagement",
+        element: <Hotelmanagement />,
+      },
     ]
   }
 
