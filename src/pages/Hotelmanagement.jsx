@@ -66,12 +66,12 @@ function Hotelmanagement() {
                 <span className="font-semibold">Privacy policies</span>
               </h6>
             </form>
-            <button className="w-[83%] mt-4 bg-[#025E7F] p-2 text-[#fff] rounded-md ml-8">
+            <button className="w-[83%] mt-4 bg-[#025E7F] p-2 text-[#fff] rounded-md ml-8  hover:bg-[#509cb7] transition duration-150 ease-out hover:ease-in">
               Lets's Start
             </button>
           </div>
         </div>
-        <div className=" absolute right-[9%] bottom-8 w-[4%] min-h-[8vh] bg-[#025E7F] rounded-full flex items-center justify-center  ">
+        <div className=" absolute right-[9%] bottom-8 w-[4%] min-h-[8vh] bg-[#025E7F] rounded-full flex items-center justify-center hover:bg-[#509cb7] transition duration-150 ease-out hover:ease-in ">
           <img src={Chatting} alt="" />
         </div>
       </div>
@@ -127,7 +127,7 @@ function Hotelmanagement() {
             </p>
           </div>
         </div>
-        <button className="w-[30%] min-h-[7vh] bg-[#3E0069] rounded-md absolute left-[35%] top-[98%] text-[25px] text-[#fff] f-[700]">
+        <button className="w-[30%] min-h-[7vh] bg-[#3E0069] rounded-md absolute left-[35%] top-[98%] text-[25px] text-[#fff] f-[700] hover:bg-[#7434a1] transition duration-150 ease-out hover:ease-in">
           Sign up to know more
         </button>
       </div>
@@ -368,8 +368,8 @@ function Hotelmanagement() {
 
     
       <div className="w-full min-h-[70vh] flex justify-center mt-[15vh]">
-          <div className="w-[25%] min-h-[70vh] bg-[#EAEAEA] rounded-md  ">
-             <div className="mt-[1vh]">
+          <div className="w-[25%] min-h-[70vh] bg-[#EAEAEA] rounded-md  hover:bg-[#ebe6e6] transition duration-150 ease-out hover:ease-in">
+             <div className="mt-[1vh] ">
               <h1 className="font-semibold text-[1.5vw]  w-[50%] text-center ">
               Plan 1: Basic 
               </h1>
@@ -394,10 +394,10 @@ function Hotelmanagement() {
               </div>
              </div>
              <div className="w-full  flex justify-center">
-             <button className="bg-[#3E0069] w-[70%] h-[6vh] text-[white] rounded-md">Book my trial</button>
+             <button className="bg-[#3E0069] w-[70%] h-[6vh] text-[white] rounded-md hover:bg-[#7434a1] transition duration-150 ease-out hover:ease-in">Book my trial</button>
              </div>
           </div>
-          <div className="w-[25%] min-h-[70vh] bg-[#EAEAEA] rounded-md ml-2">
+          <div className="w-[25%] min-h-[70vh] bg-[#EAEAEA] rounded-md ml-2 hover:bg-[#ebe6e6] transition duration-150 ease-out hover:ease-in">
           <div className="mt-[1vh]">
               <h1 className="font-semibold text-[1.5vw]  w-[50%] text-center ">
               Plan 2: Pro 
@@ -423,10 +423,10 @@ function Hotelmanagement() {
               </div>
              </div>
              <div className="w-full  flex justify-center">
-             <button className="bg-[#3E0069] w-[70%] h-[6vh] text-[white] rounded-md">Book my trial</button>
+             <button className="bg-[#3E0069] w-[70%] h-[6vh] text-[white] rounded-md hover:bg-[#7434a1] transition duration-150 ease-out hover:ease-in">Book my trial</button>
              </div>
           </div>
-          <div className="w-[25%] min-h-[70vh] bg-[#EAEAEA] rounded-md ml-2">
+          <div className="w-[25%] min-h-[70vh] bg-[#EAEAEA] rounded-md ml-2 hover:bg-[#ebe6e6] transition duration-150 ease-out hover:ease-in">
           <div className="mt-[1vh]">
               <h1 className="font-semibold text-[1.5vw]  w-[55%] text-center ">
               Plan 3:Premium 
@@ -452,7 +452,7 @@ function Hotelmanagement() {
               </div>
              </div>
              <div className="w-full  flex justify-center">
-             <button className="bg-[#3E0069] w-[70%] h-[6vh] text-[white] rounded-md">Book my trial</button>
+             <button className="bg-[#3E0069] w-[70%] h-[6vh] text-[white] rounded-md hover:bg-[#7434a1] transition duration-150 ease-out hover:ease-in">Book my trial</button>
              </div>
           </div>
       </div>
@@ -473,12 +473,12 @@ function Hotelmanagement() {
           </div>
           <div className="w-full h-[33%]  flex items-center justify-center ">
             {" "}
-            <h4 className="font-[500] text-[1vw]">Book a free demo</h4>{" "}
+            <h4 className="font-[500] text-[1vw] hover:bg-[#a9a2a2] transition duration-150 ease-out hover:ease-in">Book a free demo</h4>{" "}
           </div>
           <div className="w-full h-[33%]  flex items-center justify-evenly">
             <div className="w-[55%] h-[50%] flex items-center justify-evenly">
               <div className="w-[40%] h-[100%]  rounded-lg bg-[#FD575B] ">
-                <button className="w-[100%]  rounded-lg h-[100%] text-[1vw] font-[700] text-white">
+                <button className="w-[100%]  rounded-lg h-[100%] text-[1vw] font-[700] text-white hover:bg-[#b14849] transition duration-150 ease-out hover:ease-in">
                   SIGN UP
                 </button>
               </div>
@@ -486,7 +486,7 @@ function Hotelmanagement() {
                 <h4>Or</h4>
               </div>
               <div className="w-[40%] h-[100%] rounded-lg bg-[#FD575B] ">
-                <button className="w-[100%]  rounded-lg h-[100%] text-[1vw] font-[700] text-white">
+                <button className="w-[100%]  rounded-lg h-[100%] text-[1vw] font-[700] text-white hover:bg-[#b14849] transition duration-150 ease-out hover:ease-in">
                   CONTACT US
                 </button>{" "}
               </div>

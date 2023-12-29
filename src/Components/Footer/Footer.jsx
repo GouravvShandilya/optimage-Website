@@ -22,7 +22,7 @@ function Footer() {
        {/** Links part */}
           <div className="   md:w-[33%] md:h-[100%] w-[33%] h-[100%]  flex flex-col justify-around  ">
             <div className="w-full h-[20%] flex items-center">
-              <h1 className="md:text-[1.2vw] md:font-[500] text-[4vw] tracking-widest font-[500]">Links</h1>
+              <h1 className="md:text-[1.2vw] md:font-[500] text-[4vw] tracking-widest font-[500] ">Links</h1>
             </div>
             <div className=" w-full h-[10%]  flex items-center ">
               <Link to="/" className="md:text-[1.2vw] text-[2.5vw]">Home</Link>
