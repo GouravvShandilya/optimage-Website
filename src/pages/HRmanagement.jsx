@@ -13,17 +13,18 @@ const HRmanagement = () => {
     <div className="w-[full] min-h-[100vh]">
       {/* ....Main-1...... */}
 
-      <div className="w-[100%] min-h-[20vh] flex items-center">
+      <div className="w-[100%] min-h-[20vh] flex flex-col md:flex-row  items-center">
         <div className="w-[50%] min-h-[60vh]  flex items-center justify-center  ">
-          <div className="w-[50%] h-[100%] flex flex-col ">
-            <h1 className="text-[3.4vw]  font-[700] text-[#025E7F] ">
+          <div className="md:w-[50%] h-[100%] flex flex-col  ">
+            <h1 className="md:text-[3.4vw] text-[7vw]  font-[700] text-[#025E7F] ">
               THE ONLY HR <br /> MANAGEMENT SYSTEM.
             </h1>
             <p> you will ever need</p>
           </div>
         </div>
-        <div className="w-[38%] min-h-[70vh] bg-[#D1D1D1] flex  items-center mt-12 mr-8 rounded-md pl-12 ">
-          <div className=" mb-12 flex flex-col   justify-center ">
+        
+        <div className="md:w-[38%] ml-[3vh] min-h-[70vh]  bg-[#D1D1D1] flex   items-center mt-12 mr-8 rounded-md pl-12 ">
+          <div className="  mr-[2vh] mb-12 flex flex-col   justify-center ">
             <form
               action=""
               className="flex  flex-col  justify-center items-start ml-8 "
@@ -41,12 +42,12 @@ const HRmanagement = () => {
             </form>
             <form action="" className="flex ml-8">
               <input
-                className=" w-[14%] mt-4 pl-2 pt-2 pb-2 rounded-md "
+                className=" md:w-[14%] w-[17%] mt-4 pl-2 pt-2 pb-2 rounded-md "
                 type="number"
                 placeholder="+91"
               />
               <input
-                className=" w-[74%] mt-4 ml-2 pl-2 pt-2 pb-2 rounded-md"
+                className=" md:w-[74%] w-[70%] mt-4 ml-2 pl-2 pt-2 pb-2 rounded-md"
                 type="number"
                 placeholder="Phone number"
               />
@@ -64,7 +65,8 @@ const HRmanagement = () => {
             </button>
           </div>
         </div>
-        <div className=" absolute right-[9%] bottom-8 w-[4%] min-h-[8vh] bg-[#025E7F] rounded-full flex items-center justify-center  ">
+        
+        <div className=" md:absolute md:bottom-[8%] md:right-[7%] absolute bottom-[-55%] right-[2%]  md:w-[4%] md:min-h-[8vh] w-[15%] min-h-[8.5%] bg-[#025E7F] rounded-full flex items-center justify-center  ">
           <img src={Chatting} alt="" />
         </div>
       </div>
@@ -90,17 +92,17 @@ const HRmanagement = () => {
 
       {/* ...Main-3.... */}
 
-      <div className="w-full min-h-[70vh] bg-[#fb923c] flex">
+      <div className="w-full min-h-[70vh] bg-[#fb923c] flex ">
         <div className=" w-[50%] min-h-[70vh] flex flex-col justify-evenly  bg-[#fff]">
           <div>
             <h1 className="f-[600] text-[40px] ml-[10%] ">Features</h1>
           </div>
           <div className=" w-[100%] min-h-[50vh] flex flex-col justify-between ">
             <div className="flex justify-evenly items-center ">
-              <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
+              <div className="md:w-[30px] md:h-[30px]  bg-[#025E7F] rounded-full text-center text-[#fff]">
                 1
               </div>
-              <p className="w-[35%]">
+              <p className="md:w-[35%] ml-[2vh]">
                 People: Keep track on people with various trackers. Stay
                 updated!
               </p>
@@ -109,7 +111,7 @@ const HRmanagement = () => {
               <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
                 2
               </div>
-              <p className="w-[35%]">
+              <p className="md:w-[35%] ml-[2vh]">
                 Recruitment: Have a detailed recruitment process right in front
                 of your eyes
               </p>
@@ -118,7 +120,7 @@ const HRmanagement = () => {
               <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
                 3
               </div>
-              <p className="w-[35%]">
+              <p className="md:w-[35%] ml-[2vh]">
                 Budget: Keep an eye on where the money is distributed and how
                 well it getting used.
               </p>
@@ -127,7 +129,7 @@ const HRmanagement = () => {
               <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
                 4
               </div>
-              <p className="w-[35%]">
+              <p className="md:w-[35%] ml-[2vh]">
                 Payroll: Have a systematic way of payroll.
               </p>
             </div>
@@ -139,7 +141,7 @@ const HRmanagement = () => {
               <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
                 5
               </div>
-              <p className="w-[35%]">
+              <p className="md:w-[35%] ml-[2vh]">
                 Shifts: Get in details about shifts, who and when.
               </p>
             </div>
@@ -147,7 +149,7 @@ const HRmanagement = () => {
               <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
                 6
               </div>
-              <p className="w-[35%]">
+              <p className="md:w-[35%] ml-[2vh]">
                 Shifts: Get in details about shifts, who and when.
               </p>
             </div>
@@ -155,7 +157,7 @@ const HRmanagement = () => {
               <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
                 7
               </div>
-              <p className="w-[35%]">
+              <p className="md:w-[35%] ml-[2vh]">
                 Get an interesting Dashboard, to greet you at work.
               </p>
             </div>
@@ -163,7 +165,7 @@ const HRmanagement = () => {
               <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
                 8
               </div>
-              <p className="w-[35%]">And so much more...</p>
+              <p className="md:w-[35%] ml-[2vh]">And so much more...</p>
             </div>
           </div>
         </div>
@@ -189,9 +191,9 @@ const HRmanagement = () => {
 
       {/* ...Main-5... */}
 
-      <div className="w-[full] relative flex min-h-[70vh] mt-[10vh] bg-[#FFAF51]">
-        <div className="w-[38%] min-h-[70vh] flex justify-center items-center ">
-          <div className="w-[65%] flex flex-col min-h-[28vh] justify-evenly ">
+      <div className="w-[full]  relative flex min-h-[70vh] mt-[10vh] bg-[#FFAF51]">
+        <div className="md:w-[38%] ml-[10vh] min-h-[70vh] flex justify-center items-center ">
+          <div className="md:w-[65%]   ml-[2vh] flex flex-col min-h-[28vh] justify-evenly ">
             <div>
               <h1 className="text-[2.5vw] font-semibold">
                 Here’s what you get
@@ -211,30 +213,30 @@ const HRmanagement = () => {
           </div>
         </div>
 
-        <div className="w-[62%] flex flex-col justify-center min-h-[70vh] mb-[4vh] ">
-          <div className=" w-[90%]">
-            <div className="w-[40%] flex items-center">
+        <div className="w-[62%]  flex flex-col justify-center min-h-[70vh] mb-[4vh] ">
+          <div className=" md:w-[90%]">
+            <div className="md:w-[40%] w-[60%] flex items-center">
               <img src={graph1} alt="" />
             </div>
-            <div className="w-[40%] ml-[1vw] flex items-center">
+            <div className="md:w-[40%] w-[60%] ml-[1vw] flex items-center">
               <img src={graph} alt="" />
             </div>
-            <div className="w-[40%] flex items-center">
+            <div className="md:w-[40%] w-[60%] flex items-center">
               <img src={graph2} alt="" />
             </div>
           </div>
         </div>
-        <button className="absolute bottom-[-3.5vh] left-[80vh] w-[40vh] min-h-[7vh] text-[1.5vw] text-[#fff] bg-[#3E0069] rounded-md">
+        <button className="md:absolute md:bottom-[-3.5vh] md:left-[80vh] absolute bottom-[-3.5vh]  left-[9vh] w-[40vh] min-h-[7vh] text-[1.5vw] text-[#fff] bg-[#3E0069] rounded-md">
           And SO MUCH MORE...
         </button>
       </div>
 
       {/* ...Main-6... */}
 
-      <div className="w-[100%] min-h-[70vh] mt-[20vh] flex items-center">
+      <div className="w-[100%] min-h-[70vh] mt-[20vh] flex flex-col md:flex-row items-center">
         <div className="flex flex-col justify-evenly items-center w-[50%]">
           <div>
-            <h1 className=" text-[40px] f-[400]">
+            <h1 className=" md:text-[40px] f-[400]">
               Why our HR management <br /> system?
             </h1>
           </div>
@@ -242,13 +244,13 @@ const HRmanagement = () => {
             <img src={Image} alt="" />
           </div>
         </div>
-        <div className=" w-[50%] min-h-[100vh] ">
+        <div className=" w-[50%] mt-[2vh] min-h-[100vh] ">
           <div className="flex  flex justify-evenly mb-3">
-            <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
+            <div className="md:w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
               1
             </div>
-            <div className="flex flex-col  w-[50%]">
-              <h1 className="text-[24px] f-[700] font-semibold">
+            <div className="flex flex-col ml-[1vh]   md:w-[50%]">
+              <h1 className="md:text-[24px] text-[20px] f-[700] font-semibold">
                 Efficiency and Productivity
               </h1>
               <p>
@@ -263,8 +265,8 @@ const HRmanagement = () => {
             <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
               2
             </div>
-            <div className="flex flex-col w-[50%]">
-              <h1 className="text-[24px] f-[700] font-semibold">
+            <div className="flex flex-col md:w-[50%]">
+              <h1 className="md:text-[24px] text-[20px] f-[700] font-semibold">
                 Data-Driven Decision Making
               </h1>
               <p>
@@ -278,8 +280,8 @@ const HRmanagement = () => {
             <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
               3
             </div>
-            <div className="flex flex-col  w-[50%]">
-              <h1 className="text-[24px] f-[700] font-semibold">
+            <div className="flex flex-col  md:w-[50%]">
+              <h1 className="md:text-[24px] text-[20px] f-[700] font-semibold">
                 Employee Empowerment and Development
               </h1>
               <p>
@@ -294,8 +296,8 @@ const HRmanagement = () => {
             <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
               4
             </div>
-            <div className="flex flex-col  w-[50%]">
-              <h1 className="text-[24px] f-[700] font-semibold">
+            <div className="flex flex-col  md:w-[50%]">
+              <h1 className="md:text-[24px] text-[20px] f-[700] font-semibold">
                 Scalability and Adaptability
               </h1>
               <p>
@@ -311,9 +313,9 @@ const HRmanagement = () => {
 
       {/* ...Main-7... */}
 
-      <div className="w-full min-h-[10vh] mt-[5vh] bg-[#FFAF50] flex justify-end items-center">
-        <div className=" w-[20%] flex justify-center">
-          <div className="flex  justify-between w-[50%] items-center">
+      <div className="md:w-full min-h-[10vh] mt-[5vh] bg-[#FFAF50] flex justify-end items-center">
+        <div className=" md:w-[20%] flex justify-center">
+          <div className="flex  justify-between md:w-[50%] items-center">
             <h1>Monthly</h1>
             <button>
               <Switch></Switch>
@@ -365,7 +367,7 @@ const HRmanagement = () => {
             </div>
           </div>
           <div className="w-full  flex justify-center">
-            <button className="bg-[#3E0069] w-[70%] h-[6vh] text-[white] rounded-md">
+            <button className="bg-[#3E0069] md:w-[70%] w-[80%] min-h-[6vh] text-[white] rounded-md">
               Book my trial
             </button>
           </div>
@@ -411,7 +413,7 @@ const HRmanagement = () => {
             </div>
           </div>
           <div className="w-full  flex justify-center">
-            <button className="bg-[#3E0069] w-[70%] h-[6vh] text-[white] rounded-md">
+            <button className="bg-[#3E0069] md:w-[70%] w-[80%] min-h-[6vh] text-[white] rounded-md">
               Book my trial
             </button>
           </div>
@@ -455,7 +457,7 @@ const HRmanagement = () => {
             </div>
           </div>
           <div className="w-full  flex justify-center">
-            <button className="bg-[#3E0069] w-[70%] h-[6vh] text-[white] rounded-md">
+            <button className="bg-[#3E0069] md:w-[70%] w-[80%] min-h-[6vh] text-[white] rounded-md">
               Book my trial
             </button>
           </div>
