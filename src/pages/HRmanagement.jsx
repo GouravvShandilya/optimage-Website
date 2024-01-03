@@ -246,10 +246,10 @@ const HRmanagement = () => {
         </div>
         <div className=" w-[50%] mt-[2vh] min-h-[100vh] ">
           <div className="flex  flex justify-evenly mb-3">
-            <div className="md:w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
+            <div className="md:w-[30px] md:h-[30px] h-[100%] w-[100%] bg-[#025E7F] rounded-full text-center text-[#fff]">
               1
             </div>
-            <div className="flex flex-col ml-[1vh]   md:w-[50%]">
+            <div className="flex flex-col ml-[1vh]  md:w-[50%]">
               <h1 className="md:text-[24px] text-[20px] f-[700] font-semibold">
                 Efficiency and Productivity
               </h1>
@@ -262,7 +262,7 @@ const HRmanagement = () => {
             </div>
           </div>
           <div className="flex  flex justify-evenly mb-3">
-            <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
+            <div className="md:w-[30px] md:h-[30px] h-[100%] w-[100%] mr-[10px] bg-[#025E7F] rounded-full text-center text-[#fff]">
               2
             </div>
             <div className="flex flex-col md:w-[50%]">
@@ -277,7 +277,7 @@ const HRmanagement = () => {
             </div>
           </div>
           <div className="flex  flex justify-evenly mb-3">
-            <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
+            <div className="md:w-[30px] md:h-[30px] h-[100%] w-[100%] mr-[10px] bg-[#025E7F] rounded-full text-center text-[#fff]">
               3
             </div>
             <div className="flex flex-col  md:w-[50%]">
@@ -293,7 +293,7 @@ const HRmanagement = () => {
             </div>
           </div>
           <div className="flex  flex justify-evenly mb-3">
-            <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
+            <div className="md:w-[30px] md:h-[30px] h-[100%] w-[100%] mr-[10px] bg-[#025E7F] rounded-full text-center text-[#fff]">
               4
             </div>
             <div className="flex flex-col  md:w-[50%]">
