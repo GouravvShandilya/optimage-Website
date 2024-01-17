@@ -253,21 +253,12 @@ function Aboutus() {
 
                         <div className="md:w-[55%] md:h-[50%] w-[65%] h-[60%] flex items-center justify-evenly ">
                             <div className="md:w-[40%] md:h-[100%] w-[30%] h-[85%]  rounded-lg bg-[#FD575B] ">
-<<<<<<< HEAD
-                                <button className="w-[100%]  rounded-lg h-[100%] md:text-[1vw] text-[2vw] md:font-[700] font-[500] flex items-center justify-center text-white">SIGN UP</button>
-                            </div>
-                            <div className="w-[10%] h-[100%]  flex items-center justify-center"><h4 className="md:text-[1vw] text-[2vw]">Or</h4></div>
-                            <div className="md:w-[40%] md:h-[100%] w-[30%] h-[85%] rounded-lg bg-[#FD575B] ">
-                                <Link to="/contactus">  <button className="w-[100%]  rounded-lg h-[100%] md:text-[1vw] text-[2vw] md:font-[700] font-[500] flex items-center justify-center text-white">CONTACT US</button></Link>
-                            </div>
-=======
                             <button className="w-[100%]  rounded-lg h-[100%] md:text-[1vw] text-[2vw] md:font-[700] font-[500] flex items-center justify-center text-white hover:bg-[#b14849] transition duration-150 ease-out hover:ease-in">SIGN UP</button>
                             </div>
                             <div className="w-[10%] h-[100%]  flex items-center justify-center"><h4 className="md:text-[1vw] text-[2vw]">Or</h4></div>
                             <div className="md:w-[40%] md:h-[100%] w-[30%] h-[85%] rounded-lg bg-[#FD575B] ">
                             <button className="w-[100%]  rounded-lg h-[100%] md:text-[1vw] text-[2vw] md:font-[700] font-[500] flex items-center justify-center text-white hover:bg-[#b14849] transition duration-150 ease-out hover:ease-in">CONTACT US</button>
                              </div>
->>>>>>> d090bae10238cface694c365c3c4a19368946511
                         </div>
 
 
