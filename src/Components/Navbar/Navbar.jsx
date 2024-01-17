@@ -27,8 +27,8 @@ function Navbar() {
                     </div>
 
                     <div className="md:w-[70%] md:h-[100%]  md:flex md:justify-around md:items-center  w-[70%] h-[100%]  flex justify-around items-center">
-                        <div className="md:w-[45%] md:h-[55%] md:rounded-[5vw] md:border-[#21718E] md:border-2 w-[45%] h-[30%] rounded-[5vw] border-[#21718E] border-2 "><Link className="w-[100%] h-[100%] flex items-center justify-center md:text-[1.3vw] text-[2.5vw]  ">Login</Link> </div>
-                        <div className="md:w-[45%] md:h-[60%]   w-[45%] h-[30%] rounded-[5vw]   bg-[#20718f]  "> <Link className="w-[100%] h-[100%] flex items-center justify-center md:text-[1.3vw] text-[2.5vw] text-white">Sign up</Link>  </div>
+                        <div className="md:w-[45%] md:h-[55%] md:rounded-[5vw] md:border-[#21718E] md:border-2 w-[45%] h-[30%] rounded-[5vw] border-[#21718E] border-2 hover:bg-[#f1eaea] transition duration-150 ease-out hover:ease-in "><Link className="w-[100%] h-[100%] flex items-center justify-center md:text-[1.3vw] text-[2.5vw]  ">Login</Link> </div>
+                        <div className="md:w-[45%] md:h-[60%]   w-[45%] h-[30%] rounded-[5vw]   bg-[#20718f]  hover:bg-[#3086a6] transition duration-150 ease-out hover:ease-in"> <Link className="w-[100%] h-[100%] flex items-center justify-center md:text-[1.3vw] text-[2.5vw] text-white ">Sign up</Link>  </div>
                     </div>
 
                 </div>

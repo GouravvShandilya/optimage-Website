@@ -15,7 +15,7 @@ function Aboutus() {
             <div className="md:w-[100%] md:h-[75vh] w-full  h-[25vh] flex items-center justify-center ">
                 <div className=' w-[100%] h-[100%]  flex items-center justify-center'>
                     <img src={officeImg} className="w-[100%] h-[100%]   relative" alt="" />
-                    <div className="md:w-[50%] md:h-[30%] w-[50%] h-[10%] bg-[#ffffff55]  absolute flex items-center justify-center rounded">
+                    <div className="md:w-[50%] md:h-[30%] w-[50%] h-[10%] bg-[#ffffff55]  absolute flex items-center justify-center rounded hover:bg-[#ffffffb1] transition duration-150 ease-out hover:ease-in">
                         <h1 className="font-[600] text-[2vw] ">"Empowering Efficiency, Fueling Growth: <br />
                             Your Management Solution, Reinvented!"</h1>
                     </div>
@@ -248,17 +248,26 @@ function Aboutus() {
                 <div className="md:w-[60%] md:h-[40%]  w-[86%] h-[60%] flex flex-col justify-evenly">
 
                     <div className="w-full h-[33%]  flex items-center justify-center"> <h1 className="font-[700]  md:text-[1.5vw]  text-[2.5vw]">Get you one stop solution now!</h1>  </div>
-                    <div className="w-full h-[33%]  flex items-center justify-center "> <h4 className="font-[500] md:text-[1vw] text-[2.5vw]">Book a free demo</h4>  </div>
+                    <div className="w-full h-[33%]  flex items-center justify-center "> <h4 className="font-[500] md:text-[1vw] text-[2.5vw] hover:bg-[#a9a2a2] transition duration-150 ease-out hover:ease-in">Book a free demo</h4>  </div>
                     <div className="w-full h-[33%]  flex items-center justify-evenly">
 
                         <div className="md:w-[55%] md:h-[50%] w-[65%] h-[60%] flex items-center justify-evenly ">
                             <div className="md:w-[40%] md:h-[100%] w-[30%] h-[85%]  rounded-lg bg-[#FD575B] ">
+<<<<<<< HEAD
                                 <button className="w-[100%]  rounded-lg h-[100%] md:text-[1vw] text-[2vw] md:font-[700] font-[500] flex items-center justify-center text-white">SIGN UP</button>
                             </div>
                             <div className="w-[10%] h-[100%]  flex items-center justify-center"><h4 className="md:text-[1vw] text-[2vw]">Or</h4></div>
                             <div className="md:w-[40%] md:h-[100%] w-[30%] h-[85%] rounded-lg bg-[#FD575B] ">
                                 <Link to="/contactus">  <button className="w-[100%]  rounded-lg h-[100%] md:text-[1vw] text-[2vw] md:font-[700] font-[500] flex items-center justify-center text-white">CONTACT US</button></Link>
                             </div>
+=======
+                            <button className="w-[100%]  rounded-lg h-[100%] md:text-[1vw] text-[2vw] md:font-[700] font-[500] flex items-center justify-center text-white hover:bg-[#b14849] transition duration-150 ease-out hover:ease-in">SIGN UP</button>
+                            </div>
+                            <div className="w-[10%] h-[100%]  flex items-center justify-center"><h4 className="md:text-[1vw] text-[2vw]">Or</h4></div>
+                            <div className="md:w-[40%] md:h-[100%] w-[30%] h-[85%] rounded-lg bg-[#FD575B] ">
+                            <button className="w-[100%]  rounded-lg h-[100%] md:text-[1vw] text-[2vw] md:font-[700] font-[500] flex items-center justify-center text-white hover:bg-[#b14849] transition duration-150 ease-out hover:ease-in">CONTACT US</button>
+                             </div>
+>>>>>>> d090bae10238cface694c365c3c4a19368946511
                         </div>
 
 
