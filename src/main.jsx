@@ -6,6 +6,8 @@ import Aboutus from './pages/Aboutus.jsx'
 import Homepage from './pages/Homepage.jsx'
 import Productpage from './pages/Productpage.jsx'
 import Hotelmanagement from './pages/Hotelmanagement.jsx'
+import HRmanagement from './pages/HRmanagement.jsx'
+import Contactus from './pages/Contactus.jsx'
 
 
 
@@ -33,6 +35,14 @@ const router = createBrowserRouter([
       {
         path: "/hotelmanagement",
         element: <Hotelmanagement />,
+      },
+      {
+        path: "/hrmanangement",
+        element: <HRmanagement/>,
+      },
+      {
+        path: "/contactus",
+        element: <Contactus/>,
       },
     ]
   }

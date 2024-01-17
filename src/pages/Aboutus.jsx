@@ -1,7 +1,14 @@
+import { Link } from "react-router-dom"
 import officeImg from "../assets/office.jpeg.jpg"
 import sideBarVector from "../assets/sideBarVector.png"
+import sonuYadav from "../assets/sonuyadav.jpg"
+import { useEffect } from "react";
 
 function Aboutus() {
+
+
+
+
     return (
 
         <div className='w-full min-h-[100vh]  flex  items-center flex-col '>
@@ -215,6 +222,25 @@ function Aboutus() {
                 </div>
             </div>
 
+            <div className="md:w-full md:h-[100vh] w-full h-[25vh]  flex">
+                <div className="w-[50%] h-[100%]  flex items-center justify-center">
+                    <div className="w-full h-[30%]  flex flex-col items-center ">
+                        <div className="w-[90%] h-[40%]  flex items-center justify-center">
+                            <h1 className="md:text-[2.5vw] md:font-[600] text-[3.5vw] font-[600] tracking-widest">Founder</h1>
+                        </div>
+                        <div className="w-[90%] h-[40%]  flex  justify-center">
+                            <p className="md:text-[1.5vw] md:font-[400] text-[2.5vw] font-[600] tracking-wider">Sonu yadav</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="w-[50%] h-[100%]  flex items-center justify-start">
+                    <div className="w-[60%] h-[60%] bg-pink-800">
+                    <img src={sonuYadav} className="w-full h-[100%]" alt="" />
+                    </div>
+                </div>
+
+            </div>
+
 
             {/** main 4 */}
 
@@ -227,12 +253,12 @@ function Aboutus() {
 
                         <div className="md:w-[55%] md:h-[50%] w-[65%] h-[60%] flex items-center justify-evenly ">
                             <div className="md:w-[40%] md:h-[100%] w-[30%] h-[85%]  rounded-lg bg-[#FD575B] ">
-                            <button className="w-[100%]  rounded-lg h-[100%] md:text-[1vw] text-[2vw] md:font-[700] font-[500] flex items-center justify-center text-white">SIGN UP</button>
+                                <button className="w-[100%]  rounded-lg h-[100%] md:text-[1vw] text-[2vw] md:font-[700] font-[500] flex items-center justify-center text-white">SIGN UP</button>
                             </div>
                             <div className="w-[10%] h-[100%]  flex items-center justify-center"><h4 className="md:text-[1vw] text-[2vw]">Or</h4></div>
                             <div className="md:w-[40%] md:h-[100%] w-[30%] h-[85%] rounded-lg bg-[#FD575B] ">
-                            <button className="w-[100%]  rounded-lg h-[100%] md:text-[1vw] text-[2vw] md:font-[700] font-[500] flex items-center justify-center text-white">CONTACT US</button>
-                             </div>
+                                <Link to="/contactus">  <button className="w-[100%]  rounded-lg h-[100%] md:text-[1vw] text-[2vw] md:font-[700] font-[500] flex items-center justify-center text-white">CONTACT US</button></Link>
+                            </div>
                         </div>
 
 

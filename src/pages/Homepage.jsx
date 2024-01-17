@@ -8,9 +8,19 @@ import { GiCrystalGrowth } from "react-icons/gi";
 import { GoLaw } from "react-icons/go";
 import { GiReceiveMoney } from "react-icons/gi";
 import { MdOutlineMiscellaneousServices } from "react-icons/md"
+import cisco from "../assets/cisco.png"
+import startupindia from "../assets/start-up-india.png"
+import MSMELogo from "../assets/MSME-Logo.png"
+import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 
 function Homepage() {
+
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="w-full min-h-[100vh] ">
       <div className="md:w-full md:h-[100vh]  md:flex md:items-start md:justify-center w-full h-[40vh]  flex items-center justify-center ">
@@ -26,7 +36,7 @@ function Homepage() {
             <div className="w-full h-[50%]  ">
               <div className="w-full h-[50%]  flex items-center ">
                 <div className="md:w-[40%] md:h-[45%] bg-[#045E2E] rounded-xl w-[55%] h-[40%] ">
-                  <button className="w-full h-[100%] rounded-[1.5vw] text-[1.8vw] font-[600] text-white">Book a free demo</button>
+                  <button className="w-full h-[100%] rounded-[1.5vw] text-[1.8vw] font-[600] text-white flex items-center justify-center">Book a free demo</button>
                 </div>
               </div>
             </div>
@@ -76,7 +86,7 @@ function Homepage() {
 
 
             <div className="md:w-[80%] md:h-[70%] w-[90%] h-[50%]    flex items-center justify-center">
-              <button className="w-full h-[100%] bg-[#c9c9c923]  flex ">
+             <Link className="w-full h-[100%]" to="/hotelmanagement"> <button className="w-full h-[100%] bg-[#c9c9c923]  flex ">
                 <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] ">< LiaHotelSolid /></div>
                 <div className="md:w-[55%] md:h-[100%] w-[60%] h-[100%]    ">
                   <div className="w-full h-[50%]  flex items-end">
@@ -92,13 +102,14 @@ function Homepage() {
                 </div>
 
               </button>
+              </Link>
             </div>
 
 
 
             <div className="md:w-[80%] md:h-[70%] w-[90%] h-[50%]    flex items-center justify-center">
-              <button className="w-full h-[100%] bg-[#c9c9c923]  flex ">
-                <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] ">< GiHumanPyramid/></div>
+            <Link className="w-full h-[100%]" to="/hrmanangement">  <button className="w-full h-[100%] bg-[#c9c9c923]  flex ">
+                <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] ">< GiHumanPyramid /></div>
                 <div className="md:w-[55%] md:h-[100%] w-[60%] h-[100%]    ">
                   <div className="w-full h-[50%]  flex items-end">
                     <h1 className="md:text-[1.5vw] text-[3.5vw] font-[600]">Humans</h1>
@@ -113,10 +124,11 @@ function Homepage() {
                 </div>
 
               </button>
+              </Link>
             </div>
             <div className="md:w-[80%] md:h-[70%] w-[90%] h-[50%]    flex items-center justify-center">
               <button className="w-full h-[100%] bg-[#c9c9c923]  flex ">
-                <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] "><GiCrystalGrowth/></div>
+                <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] "><GiCrystalGrowth /></div>
                 <div className="md:w-[55%] md:h-[100%] w-[60%] h-[100%]    ">
                   <div className="w-full h-[50%]  flex items-end">
                     <h1 className="md:text-[1.5vw] text-[3.5vw] font-[600]">Sales</h1>
@@ -134,7 +146,7 @@ function Homepage() {
             </div>
             <div className="md:w-[80%] md:h-[70%] w-[90%] h-[50%]    flex items-center justify-center">
               <button className="w-full h-[100%] bg-[#c9c9c923]  flex ">
-                <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] "><GoLaw/></div>
+                <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] "><GoLaw /></div>
                 <div className="md:w-[55%] md:h-[100%] w-[60%] h-[100%]    ">
                   <div className="w-full h-[50%]  flex items-end">
                     <h1 className="md:text-[1.5vw] text-[3.5vw] font-[600]">Legal</h1>
@@ -152,7 +164,7 @@ function Homepage() {
             </div>
             <div className="md:w-[80%] md:h-[70%] w-[90%] h-[50%]    flex items-center justify-center">
               <button className="w-full h-[100%] bg-[#c9c9c923]  flex ">
-                <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] "><GiReceiveMoney/></div>
+                <div className="md:w-[20%] md:h-[100%] w-[20%] h-[100%] flex items-center md:justify-end justify-center  md:text-[3vw] text-[4vw] "><GiReceiveMoney /></div>
                 <div className="md:w-[55%] md:h-[100%] w-[60%] h-[100%]    ">
                   <div className="w-full h-[50%]  flex items-end">
                     <h1 className="md:text-[1.5vw] text-[3.5vw] font-[600]">Finance</h1>
@@ -196,7 +208,7 @@ function Homepage() {
 
         <div className="w-full h-[20%]  flex items-center justify-center ">
           <div className="md:w-[20%] md:h-[45%]  w-[30%] h-[30%] bg-[#025E7F] rounded-lg ">
-            <button className="w-full h-[100%] rounded-lg text-white md:text-[1.5vw] text-[2vw] font-[500]">View all products</button>
+            <button className="w-full h-[100%] rounded-lg text-white md:text-[1.5vw] text-[2vw] font-[500] flex items-center justify-center">View all products</button>
           </div>
         </div>
 
@@ -246,7 +258,55 @@ function Homepage() {
         </div>
       </div>
 
-      <div className="md:w-full md:h-[100vh] w-full h-[30vh]  flex items-center justify-center ">
+
+
+      <div className="md:w-full md:h-[100vh] w-full h-[50vh]   flex flex-col items-center md:justify-normal justify-center">
+        <div className="md:w-[90%] md:h-[40%] w-[90%] h-[20%]  flex items-center  justify-evenly  ">
+
+          <div className="w-[50%] h-[70%]   ">
+            <div className="w-full h-[30%] "> <h1 className="md:text-[2.5vw] md:font-[600] text-[2.5vw] font-[600]">Our partner</h1></div>
+            <div className="w-[100%] h-[70%] ">
+              <p className="md:text-[1.5vw] text-[2vw]">Collaboration fuels our essence; partners aren't just connections but the architects of our shared success story.</p>
+            </div>
+          </div>
+
+          <div className="w-[45%] h-[100%]  flex items-center md:justify-center justify-end">
+            <img src={cisco} className="" alt="" />
+          </div>
+        </div>
+        <div className="md:w-[90%] md:h-[40%] w-[90%] h-[30%] flex ">
+
+          <div className="w-[50%]  h-[100%] flex items-center justify-evenly">
+
+            <div className="md:w-[48%] md:h-[60%] w-[48%] h-[50%] bg-[#d1d1d1b0] rounded-lg flex items-center justify-center">
+              <img src={startupindia} alt="" />
+            </div>
+
+            <div className="md:w-[48%] md:h-[60%] w-[48%] h-[50%] bg-[#d1d1d1b0] rounded-lg flex items-center justify-center">
+              <img src={MSMELogo} alt="" />
+            </div>
+
+          </div>
+          <div className="w-[50%] h-[100%] flex items-center justify-start">
+            <div className="md:w-[80%] md:h-[65%] w-[100%] h-[50%] ">
+              <div className="w-full h-[40%]  flex justify-end  items-center ">
+                <h1 className="md:text-[1.5vw] text-[2.5vw] tracking-wide font-[600] ">Recognized by</h1>
+              </div>
+              <div className="w-full h-[60%] flex justify-end ">
+
+                <div className="w-[90%] h-[100%]  ">
+                  <p className="text-end md:text-[1.2vw] text-[2vw]">Our commitment to excellence has garnered recognition, positioning us as a trailblazer in our industry.</p>
+ 
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div className="md:w-full md:h-[100vh] w-full h-[30vh]  flex items-center justify-center  ">
         <div className="md:w-[50%] md:h-[70%] w-[50%] h-[60%] flex flex-col  ">
           <div className="w-full h-[33%]  flex items-center justify-center ">
             <div className="md:w-[35%] md:h-[40%] w-[45%] h-[40%] bg-[#DE6164] rounded-md">
@@ -258,7 +318,7 @@ function Homepage() {
           </div>
           <div className="w-full h-[33%]  flex items-center justify-center ">
             <div className="w-[35%] h-[40%] bg-[#3E0069] rounded-md">
-              <button className="w-full h-[100%] rounded-md  text-white md:text-[1.3vw]  flex items-center justify-center text-[2vw] font-[600]">Contact us!</button>
+             <Link to="/contactus"> <button className="w-full h-[100%] rounded-md  text-white md:text-[1.3vw]  flex items-center justify-center text-[2vw] font-[600]">Contact us!</button></Link>
             </div>
           </div>
         </div>

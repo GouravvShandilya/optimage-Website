@@ -15,7 +15,7 @@ function Navbar() {
                 <div className="md:w-[45%] md:h-[100%] w-[100%] h-[100%] flex items-center justify-around ">
                     <div className="md:text-[1.2vw] text-[1.8vw]"><Link to="/aboutus">About us</Link></div>
                     <div className="md:text-[1.2vw] text-[1.8vw]"><Link to="/productpage">Products</Link></div>
-                    <div className="md:text-[1.2vw] text-[1.8vw]" ><Link to="/productpage">Contact</Link></div>
+                    <div className="md:text-[1.2vw] text-[1.8vw]" ><Link to="/contactus">Contact</Link></div>
                 </div>
             </div>
             <div className="md:w-[30%] md:h-[100%]  md:flex md:justify-center md:items-start w-[40%] h-[100%]   flex justify-center items-start ">

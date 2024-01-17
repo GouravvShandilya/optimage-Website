@@ -14,51 +14,59 @@ import Chat from "../assets/ChatCircle.svg";
 import Share from "../assets/share.svg";
 import Image from "../assets/img.png";
 import Switch from '../Components/Switch/Switch'
+import { useEffect } from "react";
 
 function Hotelmanagement() {
+
+
+
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+}, []);
   return (
-    <div className="w-full min-h-[100vh]">
+    <div className="w-full  min-h-[100vh] ">
       {/* ....Main-1...... */}
 
-      <div className="w-[100%] min-h-[20vh] flex items-center">
+      <div className="w-[100%] min-h-[20vh] flex flex-col md:flex-row   items-center">
         <div className="w-[50%] min-h-[60vh]  flex items-center justify-center  ">
-          <div className="w-[50%] h-[100%] flex  ">
-            <h1 className="text-[2.5vw] font-[700] text-[#025E7F] ">
+          <div className="w-[95%] md:ml-12 h-[100%] flex  ">
+            <h1 className="text-[6vw] md:text-[2.5vw] font-[700] text-[#025E7F] ">
               Simplify Success, Elevate Hospitality: <br /> Your Complete Hotel
               Solution.
             </h1>
           </div>
         </div>
-        <div className="w-[38%] min-h-[70vh] bg-[#D1D1D1] flex  items-center mt-12 mr-8 rounded-md pl-12 ">
-          <div className=" mb-12 flex flex-col   justify-center ">
+        <div className="md:w-[38%] ml-[37%] w-[90%] min-h-[70vh] bg-[#D1D1D1] flex  items-center mt-12 mr-8 rounded-md pl-12 ">
+          <div className=" md:mb-12  min-h-[70vh]  items-center flex flex-col mr-[20%] justify-center ">
             <form
               action=""
-              className="flex  flex-col  justify-center items-start ml-8 "
+              className="flex  flex-col  justify-center items-start md:ml-[8]  "
             >
               <input
-                className=" w-[90%]  mr-12 pl-2 pt-2 pb-2 rounded-md"
+                className=" w-[90%] md:w-[100%] mr-12 pl-2 pt-2 pb-2 rounded-md"
                 type="text"
                 placeholder="Full Name"
               />
               <input
-                className=" w-[90%] mt-4 mr-12 pl-2 pt-2 pb-2 rounded-md"
+                className=" w-[90%] md:w-[100%] mt-4 mr-12 pl-2 pt-2 pb-2 rounded-md"
                 type="email"
                 placeholder="Email"
               />
             </form>
-            <form action="" className="flex ml-8">
+            <form action="" className="flex md:ml-8 ">
               <input
-                className=" w-[14%] mt-4 pl-2 pt-2 pb-2 rounded-md "
+                className=" md:w-[17%] w-[24%] mt-4 md:ml-[5%] pl-2 pt-2 pb-2 rounded-md "
                 type="number"
                 placeholder="+91"
               />
               <input
-                className=" w-[74%] mt-4 ml-2 pl-2 pt-2 pb-2 rounded-md"
+                className=" md:w-[60%] w-[64%] mt-4 ml-2 pl-2 pt-2 pb-2 rounded-md"
                 type="number"
                 placeholder="Phone number"
               />
             </form>
-            <form action="" className="flex ml-8  ">
+            <form action="" className="flex md:ml-8  ">
               <input type="checkbox" className="mt-2 " />{" "}
               <h6 className="mt-2 ml-2 text-xs">
                 I agree to the{" "}
@@ -66,25 +74,25 @@ function Hotelmanagement() {
                 <span className="font-semibold">Privacy policies</span>
               </h6>
             </form>
-            <button className="w-[83%] mt-4 bg-[#025E7F] p-2 text-[#fff] rounded-md ml-8">
+            <button className="w-[83%] mt-4 bg-[#025E7F] p-2 text-[#fff] rounded-md md:ml-8">
               Lets's Start
             </button>
           </div>
         </div>
-        <div className=" absolute right-[9%] bottom-8 w-[4%] min-h-[8vh] bg-[#025E7F] rounded-full flex items-center justify-center  ">
+        <div className=" md:absolute right-[2%] bottom-[1%]  w-[4%] ml-[109%] md:w-[4%] w-[19%] md:min-h-[8vh] min-h-[9vh] bg-[#025E7F] rounded-full flex items-center justify-center  ">
           <img src={Chatting} alt="" />
         </div>
       </div>
 
       {/* ...Main-2..... */}
 
-      <div className="w-full min-h-[70vh] bg-[#025E7F] mt-[10%] relative ">
+      <div className="w-full min-h-[70vh] ml-[5vh] md:ml-[0] bg-[#025E7F] mt-[10%] relative ">
         <div className="flex flex-col jutify-center items-center ">
-          <h1 className="text-[64px] f-[400] text-[#FFF] font-serif mt-6">
+          <h1 className="md:text-[64px] text-[40px] pl-[2vh] f-[400] text-[#FFF] font-serif mt-6">
             All you need is here
           </h1>
           <div className="w-[50%]">
-            <p className="text-[20px] f-[600] text-[#FF9F2F] text-center">
+            <p className="text-[18px] w-[22vh] md:w-[70vh] md:ml-[14vh] f-[600] text-[#FF9F2F]  md:text-center">
               Revolutionize your hotel's efficiency with our cutting-edge Hotel
               Management System. Seamlessly streamline reservations, check-ins,
               and guest services while maximizing revenue. Elevate guest
@@ -101,7 +109,7 @@ function Hotelmanagement() {
               Have a track of all the supplies
             </p>
           </div>
-          <div className="absolute top-[5%] right-[5%]">
+          <div className="md:absolute top-[5%] right-[5%] ml-[1vh] mt-[4vh]">
             <img src={Rectangle376} alt="" />
             <h5 className="text-center text-[#fff]">Sentiment Analysis</h5>
             <p className="text-[#fff] text-sm text-center">
@@ -109,17 +117,17 @@ function Hotelmanagement() {
               Have a review analysis for better <br /> performance
             </p>
           </div>
-          <div className="absolute left-[25%] top-[15%] ">
+          <div className="md:absolute left-[25%] top-[15%] mt-[4vh] ">
             <img className="rounded-md" src={Dashboard} alt="" />
           </div>
-          <div className="absolute left-[10%] bottom-[20%]">
+          <div className="md:absolute left-[10%] bottom-[20%] mt-[4vh] ml-[3.5vh]">
             <img src={Rectangle377} alt="" />
             <h5 className="text-center text-[#fff]">Comparative Analysis</h5>
             <p className="text-[#fff] text-sm text-center">
               compare in months are see the difference
             </p>
           </div>
-          <div className="absolute right-[11%] bottom-[11%]">
+          <div className="md:absolute right-[11%] bottom-[11%] mt-[4vh] ml-[0.45vh]">
             <img src={Rectangle378} alt="" />
             <h5 className="text-center text-[#fff]">Historical Revenue</h5>
             <p className="text-[#fff] text-sm text-center">
@@ -127,85 +135,85 @@ function Hotelmanagement() {
             </p>
           </div>
         </div>
-        <button className="w-[30%] min-h-[7vh] bg-[#3E0069] rounded-md absolute left-[35%] top-[98%] text-[25px] text-[#fff] f-[700]">
+        <button className="md:w-[30%] w-[75%] min-h-[7vh] bg-[#3E0069] rounded-md md:absolute left-[37%] top-[97%]  text-[25px] text-[#fff] f-[700]">
           Sign up to know more
         </button>
       </div>
 
       {/* ...Main-3.... */}
 
-      <div className="w-full min-h-[70vh] bg-[#fb923c] flex">
+      <div className="w-full min-h-[70vh] bg-[#fb923c] ml-[2vh] md:ml-[0] mt-[20vh] flex">
         <div className=" w-[50%] min-h-[70vh] flex flex-col justify-evenly  bg-[#fff]">
           <div>
             <h1 className="f-[600] text-[40px] ml-[10%] ">Features</h1>
           </div>
           <div className=" w-[100%] min-h-[50vh] flex flex-col justify-between ">
             <div className="flex justify-evenly items-center ">
-              <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
+              <div className="md:w-[30px] md:h-[30px] w-[60px] bg-[#025E7F] rounded-full text-center text-[#fff]">
                 1
               </div>
-              <p className="w-[35%]">
+              <p className="md:w-[35%] ml-[2vh] md:ml-[0]">
                 Booking: make new bookings and have details about others.
               </p>
             </div>
             <div className="flex justify-evenly items-center">
-              <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
+              <div className="md:w-[30px] md:h-[30px] w-[60px] bg-[#025E7F] rounded-full text-center text-[#fff]">
                 2
               </div>
-              <p className="w-[35%]">
+              <p className="md:w-[35%] ml-[2vh] md:ml-[0]">
                 Channel management: Keep all the outsource resources in check..
               </p>
             </div>
             <div className="flex justify-evenly items-center ">
-              <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
+              <div className="md:w-[30px] md:h-[30px] w-[50px] bg-[#025E7F] rounded-full text-center text-[#fff]">
                 3
               </div>
-              <p className="w-[35%]">
+              <p className="md:w-[35%] ml-[2vh] md:ml-[0] ">
                 Invoice: Have all the invoices ready in hand.
               </p>
             </div>
             <div className="flex justify-evenly items-center ">
-              <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
+              <div className="md:w-[30px]  md:h-[30px] w-[40px] bg-[#025E7F] rounded-full text-center text-[#fff]">
                 4
               </div>
-              <p className="w-[35%]">Rooms: Check availability of rooms.</p>
+              <p className="md:w-[35%] ml-[2vh] md:ml-[0]">Rooms: Check availability of rooms.</p>
             </div>
           </div>
         </div>
-        <div className=" w-[50%] min-h-[70vh] flex flex-col justify-evenly  bg-[#fff]">
-          <div className=" w-[100%] min-h-[50vh] flex flex-col justify-between mt-[12%] ">
+        <div className=" w-[50%] min-h-[70vh]  flex flex-col justify-evenly  bg-[#fff]">
+          <div className=" w-[100%] min-h-[50vh] ml-[2vh] md:ml-[0] mt-[12vh] md:mt-[0]  flex flex-col justify-between mt-[12%] ">
             <div className="flex justify-evenly items-center ">
-              <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
+              <div className="md:w-[30px] md:h-[30px] w-[60px] bg-[#025E7F] rounded-full text-center text-[#fff]">
                 5
               </div>
-              <p className="w-[35%]">
+              <p className="md:w-[35%] ml-[2vh] md:ml-[0]">
                 Housekeeping: Check who is in-charge of a room and if all the
                 necessities are available.
               </p>
             </div>
             <div className="flex justify-evenly items-center">
-              <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
+              <div className="md:w-[30px] md:h-[30px] w-[60px] bg-[#025E7F] rounded-full text-center text-[#fff]">
                 6
               </div>
-              <p className="w-[35%]">
+              <p className="md:w-[35%] ml-[2vh] md:ml-[0]">
                 Sentiment analysis: Have feedback from customers and get
                 analysis.
               </p>
             </div>
             <div className="flex justify-evenly items-center ">
-              <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
+              <div className="md:w-[30px] md:h-[30px] w-[60px] bg-[#025E7F] rounded-full text-center text-[#fff]">
                 7
               </div>
-              <p className="w-[35%]">
+              <p className="md:w-[35%] ml-[2vh] md:ml-[0]">
                 Smart room automation: Have controls of electronics through on
                 click.
               </p>
             </div>
             <div className="flex justify-evenly items-center ">
-              <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
+              <div className="md:w-[30px] md:h-[30px] w-[25px] bg-[#025E7F] rounded-full text-center text-[#fff]">
                 8
               </div>
-              <p className="w-[35%]">And so much more...</p>
+              <p className="md:w-[35%] ml-[2vh] md:ml-[0]">And so much more...</p>
             </div>
           </div>
         </div>
@@ -215,7 +223,7 @@ function Hotelmanagement() {
 
       <div className="w-full min-h-[70vh] mt-[15%] ">
         <div className="  flex justify-center items-center ">
-          <h1 className="w-[84%] text-[40px] f-[400] text-center">
+          <h1 className="w-[84%] md:text-[40px] text-[25px] f-[400] text-center">
             Elevate experiences, build trust: <br /> where customer satisfaction
             is not just a promise, but a <br /> commitment in every stay with
             our Hotel Management <br /> System.
@@ -272,10 +280,10 @@ function Hotelmanagement() {
 
       {/* .....Main-5.... */}
 
-      <div className="w-[100%] min-h-[70vh] mt-[15%] flex items-center">
+      <div className="w-[100%] min-h-[70vh] mt-[15%] flex flex-col md:flex-row items-center">
         <div className="flex flex-col justify-evenly items-center w-[50%]">
           <div>
-            <h1 className=" text-[40px] f-[400]">
+            <h1 className=" md:text-[40px] f-[400]">
               Why our Hotel management <br /> system?
             </h1>
           </div>
@@ -284,12 +292,12 @@ function Hotelmanagement() {
           </div>
         </div>
         <div className=" w-[50%] min-h-[70vh] ">
-          <div className="flex  flex justify-evenly mb-2">
+          <div className="flex  flex justify-evenly mt-[2vh] md:mt-[0] mb-2">
             <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
               1
             </div>
-            <div className="flex flex-col  w-[50%]">
-              <h1 className="text-[24px] f-[700] font-semibold">
+            <div className="flex flex-col  md:w-[50%] w-[95%]">
+              <h1 className="md:text-[24px] ml-[2vh] text-[20px] f-[700] font-semibold">
                 Streamlined Operations
               </h1>
               <p>
@@ -304,8 +312,8 @@ function Hotelmanagement() {
             <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
               2
             </div>
-            <div className="flex flex-col w-[50%]">
-              <h1 className="text-[24px] f-[700] font-semibold">
+            <div className="flex flex-col md:w-[50%] w-[95%]">
+              <h1 className="md:text-[24px] ml-[2vh] text-[20px] f-[700] font-semibold">
                 Enhanced Guest Experience
               </h1>
               <p>
@@ -320,8 +328,8 @@ function Hotelmanagement() {
             <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
               3
             </div>
-            <div className="flex flex-col  w-[50%]">
-              <h1 className="text-[24px] f-[700] font-semibold">
+            <div className="flex flex-col  md:w-[50%] w-[95%] ">
+              <h1 className="md:text-[24px] ml-[2vh] text-[20px] f-[700] font-semibold">
                 Resource Optimization
               </h1>
               <p>
@@ -336,8 +344,8 @@ function Hotelmanagement() {
             <div className="w-[30px] h-[30px] bg-[#025E7F] rounded-full text-center text-[#fff]">
               4
             </div>
-            <div className="flex flex-col  w-[50%]">
-              <h1 className="text-[24px] f-[700] font-semibold">
+            <div className="flex flex-col  md:w-[50%] w-[95%] ">
+              <h1 className="md:text-[24px] ml-[2vh] text-[20px] f-[700] font-semibold">
                 Real-Time Insights and Reporting
               </h1>
               <p>
@@ -354,9 +362,9 @@ function Hotelmanagement() {
 
        {/* ...Main-6... */}
 
-      <div className="w-full min-h-[10vh] mt-[5vh] bg-[#FFAF50] flex justify-end items-center">
-        <div className=" w-[20%] flex justify-center">
-        <div className="flex  justify-between w-[50%] items-center">
+      <div className="md:w-full min-h-[10vh] mt-[5vh] bg-[#FFAF50] flex justify-end items-center">
+        <div className=" md:w-[20%] flex justify-center">
+        <div className="flex  justify-between md:w-[50%] items-center">
           <h1>Monthly</h1>
           <button><Switch></Switch></button>
           <h1>Yearly</h1>
@@ -368,7 +376,7 @@ function Hotelmanagement() {
 
     
       <div className="w-full min-h-[70vh] flex justify-center mt-[15vh]">
-          <div className="w-[25%] min-h-[70vh] bg-[#EAEAEA] rounded-md  ">
+          <div className="md:w-[25%] w-[28%] md:min-h-[70vh]  bg-[#EAEAEA] rounded-md  ">
              <div className="mt-[1vh]">
               <h1 className="font-semibold text-[1.5vw]  w-[50%] text-center ">
               Plan 1: Basic 
@@ -394,10 +402,10 @@ function Hotelmanagement() {
               </div>
              </div>
              <div className="w-full  flex justify-center">
-             <button className="bg-[#3E0069] w-[70%] h-[6vh] text-[white] rounded-md">Book my trial</button>
+             <button className="bg-[#3E0069] md:w-[70%] md:h-[6vh] w-[80%]  text-[white] rounded-md">Book my trial</button>
              </div>
           </div>
-          <div className="w-[25%] min-h-[70vh] bg-[#EAEAEA] rounded-md ml-2">
+          <div className="md:w-[25%] w-[28%] md:min-h-[70vh] bg-[#EAEAEA] rounded-md ml-2">
           <div className="mt-[1vh]">
               <h1 className="font-semibold text-[1.5vw]  w-[50%] text-center ">
               Plan 2: Pro 
@@ -423,10 +431,10 @@ function Hotelmanagement() {
               </div>
              </div>
              <div className="w-full  flex justify-center">
-             <button className="bg-[#3E0069] w-[70%] h-[6vh] text-[white] rounded-md">Book my trial</button>
+             <button className="bg-[#3E0069] md:w-[70%] md:h-[6vh] w-[80%] text-[white] rounded-md">Book my trial</button>
              </div>
           </div>
-          <div className="w-[25%] min-h-[70vh] bg-[#EAEAEA] rounded-md ml-2">
+          <div className="md:w-[25%] w-[28%] md:min-h-[70vh] bg-[#EAEAEA] rounded-md ml-2">
           <div className="mt-[1vh]">
               <h1 className="font-semibold text-[1.5vw]  w-[55%] text-center ">
               Plan 3:Premium 
@@ -452,7 +460,7 @@ function Hotelmanagement() {
               </div>
              </div>
              <div className="w-full  flex justify-center">
-             <button className="bg-[#3E0069] w-[70%] h-[6vh] text-[white] rounded-md">Book my trial</button>
+             <button className="bg-[#3E0069] md:w-[70%] md:h-[6vh] w-[80%] text-[white] rounded-md">Book my trial</button>
              </div>
           </div>
       </div>
